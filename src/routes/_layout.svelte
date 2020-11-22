@@ -17,6 +17,6 @@
 
 <Nav {segment}/>
 
-<main>
+<main class="prose">
 	<slot></slot>
 </main>
