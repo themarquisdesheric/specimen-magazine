@@ -1,8 +1,14 @@
 <script lang="ts">
-	import Nav from '../components/Nav.svelte';
+	import Nav from '../components/Nav.svelte'
 
-	export let segment: string;
+	export let segment: string
 </script>
+
+<Nav {segment} />
+
+<main class="prose">
+	<slot />
+</main>
 
 <style>
 	main {
@@ -14,9 +20,3 @@
 		box-sizing: border-box;
 	}
 </style>
-
-<Nav {segment}/>
-
-<main class="prose">
-	<slot></slot>
-</main>

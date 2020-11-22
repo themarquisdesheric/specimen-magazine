@@ -1,21 +1,16 @@
 <script context="module" lang="ts">
 	export function preload() {
-		return this.fetch(`interviews.json`).then((r: { json: () => any; }) => r.json()).then((posts: { slug: string; title: string, html: any }[]) => {
-			return { posts };
-		});
+		return this.fetch(`interviews.json`)
+			.then((r: { json: () => any }) => r.json())
+			.then((posts: { slug: string; title: string; html: any }[]) => {
+				return { posts }
+			})
 	}
 </script>
 
 <script lang="ts">
-	export let posts: { slug: string; title: string, html: any }[];
+	export let posts: { slug: string; title: string; html: any }[]
 </script>
-
-<style>
-	ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
-	}
-</style>
 
 <svelte:head>
 	<title>Blog</title>
@@ -32,3 +27,10 @@
 		<li><a rel="prefetch" href="interviews/{post.slug}">{post.title}</a></li>
 	{/each}
 </ul>
+
+<style>
+	ul {
+		margin: 0 0 1em 0;
+		line-height: 1.5;
+	}
+</style>
