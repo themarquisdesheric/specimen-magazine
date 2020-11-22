@@ -6,7 +6,7 @@ import url from '@rollup/plugin-url';
 import svelte from 'rollup-plugin-svelte';
 import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
-import sveltePreprocess from 'svelte-preprocess';
+import { preprocess } from './svelte.config'
 import typescript from '@rollup/plugin-typescript';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
@@ -33,8 +33,8 @@ export default {
 			svelte({
 				dev,
 				hydratable: true,
-				preprocess: sveltePreprocess(),
-				emitCss: true
+				emitCss: true,
+				preprocess
 			}),
 			url({
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
@@ -82,10 +82,10 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
+				dev,
 				generate: 'ssr',
 				hydratable: true,
-				preprocess: sveltePreprocess(),
-				dev
+				preprocess,
 			}),
 			url({
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
