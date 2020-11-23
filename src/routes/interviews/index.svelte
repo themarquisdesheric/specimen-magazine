@@ -13,11 +13,10 @@
 </script>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Interviews</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
-
+<h1>Interviews</h1>
 <ul>
 	{#each posts as post}
 		<!-- we're using the non-standard `rel=prefetch` attribute to
@@ -27,10 +26,3 @@
 		<li><a rel="prefetch" href="interviews/{post.slug}">{post.title}</a></li>
 	{/each}
 </ul>
-
-<style>
-	ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
-	}
-</style>
