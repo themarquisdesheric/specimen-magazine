@@ -1,26 +1,30 @@
 <script lang="ts">
+	import NavLink from './NavLink.svelte'
+
 	export let segment: string
+	const linkNames: string[] = ['issues', 'interviews', 'about']
 	let isMobileMenuOpen = false
 	
-	$: maxHeight = isMobileMenuOpen ? '175px' : '0px'
-
 	const toggleMobileMenu = (): boolean =>
 		isMobileMenuOpen = !isMobileMenuOpen
+	
+	$: maxHeight = isMobileMenuOpen ? '175px' : '0px'
 </script>
 
+<!-- mobile menu -->
 <ul
-	class="mobile-menu text-center overflow-hidden"
+	class="mobile-menu text-center overflow-hidden font-extralight"
 	style="--maxHeight: {maxHeight};"
 >
-	<li>issues</li>
-	<li>interviews</li>
-	<li>about</li>
+	{#each linkNames as linkName}
+		<NavLink {segment} {linkName} mobileMenu={true} />
+	{/each}
 </ul>
+
 <nav>
 	<div class="flex justify-between px-8">
 		<div>
 			<a
-				aria-current={segment === undefined ? 'page' : undefined}
 				href="."
 				class="font-extrabold pl-0"
 			>Specimen</a>
@@ -30,75 +34,56 @@
 			<img src="menu.png" alt="hamburger menu" class="py-3 w-5" on:click={toggleMobileMenu}>
 		</button>
 
+		<!-- regular menu -->
 		<ul class="regular-menu flex font-extralight m-0 p-0">
-			<li>
-				<a
-					aria-current={segment === 'issues' ? 'page' : undefined}
-					href="issues"
-				>issues</a>
-			</li>
-	
-			<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-						the blog data when we hover over the link or tap it on a touchscreen ---->
-			<li>
-				<a
-					rel="prefetch"
-					aria-current={segment === 'interviews' ? 'page' : undefined}
-					href="interviews"
-				>interviews</a>
-			</li>
-			<li>
-				<a
-					aria-current={segment === 'about' ? 'page' : undefined}
-					href="about"
-					class="pr-0"
-				>about</a>
-			</li>
+			{#each linkNames as linkName}
+				<NavLink {segment} {linkName} />
+			{/each}
 		</ul>
 	</div>
 </nav>
 
 <style>
 	nav {
-		border-bottom: 1px solid #111827;
+		border-bottom: 1px solid rgba(17, 24, 39, .5);
 	}
 
 	.hamburger-menu {
     left: .45rem;
 	}
 
-	[aria-current] {
+	nav :global([aria-current]) {
 		position: relative;
 		display: inline-block;
 	}
 
-	[aria-current]::after {
+	nav :global([aria-current]::after) {
 		position: absolute;
 		content: '';
-		width: calc(100% - 1em);
+		width: calc(100% - .5em);
 		height: 2px;
 		background-color: rgb(0, 0, 0);
 		display: block;
 		bottom: -1px;
 	}
 
-	a {
+	nav :global(a) {
 		text-decoration: none;
 		padding: 1em 0.5em;
 		display: block;
 	}
 
-	div a {
+	div :global(a) {
 		padding-left: 0;
 	}
 
 	.mobile-menu {
 		transition: max-height 0.3s ease-out;
-		border-bottom: 1px solid #111827;
+		border-bottom: 1px solid rgba(17, 24, 39, .5);
 		max-height: var(--maxHeight);
 	}
 
-	.mobile-menu li {
+	.mobile-menu :global(li) {
 		margin: 1rem 0;
 	}
 
