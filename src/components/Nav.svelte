@@ -5,7 +5,7 @@
 	const linkNames: string[] = ['issues', 'interviews', 'about']
 	let isMobileMenuOpen = false
 	
-	const toggleMobileMenu = (): boolean =>
+	const toggleMobileMenu = () =>
 		isMobileMenuOpen = !isMobileMenuOpen
 	
 	$: maxHeight = isMobileMenuOpen ? '175px' : '0px'
@@ -17,7 +17,7 @@
 	style="--maxHeight: {maxHeight};"
 >
 	{#each linkNames as linkName}
-		<NavLink {segment} {linkName} mobileMenu={true} />
+		<NavLink {segment} {linkName} mobileMenu={true} {toggleMobileMenu} />
 	{/each}
 </ul>
 
