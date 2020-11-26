@@ -79,8 +79,9 @@
 
 	.mobile-menu {
 		transition: max-height 0.3s ease-out;
-		border-bottom: 1px solid rgba(17, 24, 39, .5);
+		background: rgb(17, 24, 39);
 		max-height: var(--maxHeight);
+		color: #fff;
 	}
 
 	.mobile-menu :global(li) {

@@ -6,7 +6,7 @@
 
 <Nav {segment} />
 
-<main class="prose">
+<main>
 	<slot />
 </main>
 
