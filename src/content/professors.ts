@@ -20,7 +20,7 @@ export const peterDuesberg: Professor = {
   interview: {
     title: '',
     interviewers: [abby],
-    date: 'Winter/Spring 2012',
+    date: '2012',
     slug: 'peter-duesberg',
     interview: '',
     quote: '',
@@ -33,7 +33,7 @@ export const johnLetiche = {
   interview: {
     title: 'Professor Emeritus of International Economics',
     interviewers: [abby],
-    date: 'Winter/Spring 2012',
+    date: '2012',
     slug: 'peter-duesberg',
     interview: '',
     quote: '',
@@ -46,7 +46,7 @@ export const christosPapadimitriou = {
   interview: {
     title: '',
     interviewers: [abby],
-    date: 'Winter/Spring 2012',
+    date: '2012',
     slug: 'christos-papadimitriou',
     interview: '',
     quote: '',
@@ -59,7 +59,7 @@ export const christosPapadimitriou = {
   interview: {
     title: '',
     interviewers: [abby],
-    date: 'Winter/Spring 2012',
+    date: '2012',
     slug: 'peter-duesberg',
     interview: '',
     quote: '',

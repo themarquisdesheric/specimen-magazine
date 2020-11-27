@@ -5,7 +5,7 @@ import { davidAldous, peterDuesberg, johnLetiche, christosPapadimitriou, cJudKin
 export const firstIssue: Issue = {
   slug: 'issue-1',
   title: 'Berkeley University',
-  date: 'Winter/Spring 2012',
+  date: '2012',
   number: 1,
   subjects: ['Math', 'Statistics', 'Probability Theory', 'Biology', 'Economics', 'Computer Science', 'Chemical Engineering & Upper Administration'],
   contributors: [abby],
