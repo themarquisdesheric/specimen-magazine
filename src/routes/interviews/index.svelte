@@ -24,7 +24,7 @@
 					tell Sapper to load the data for the page as soon as
 					the user hovers over the link or taps it, instead of
 					waiting for the 'click' event -->
-			<li><a rel="prefetch" href="interviews/{post.slug}">{post.title}</a></li>
+			<li><a rel="prefetch" href="/interviews/{post.slug}">{post.title}</a></li>
 		{/each}
 	</ul>
 </div>

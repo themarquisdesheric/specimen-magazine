@@ -2,7 +2,7 @@
 	export let segment: string
   export let linkName: string
   export let mobileMenu = false
-  export let toggleMobileMenu: () => {}
+  export let toggleMobileMenu = () => {}
 </script>
 
 <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
