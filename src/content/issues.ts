@@ -1,6 +1,6 @@
 import type { Issue } from '../types'
 import { abby } from '../content/contributors'
-import { davidAldous } from '../content/professors'
+import { davidAldous, peterDuesberg, johnLetiche, christosPapadimitriou, cJudKing } from '../content/professors'
 
 export const firstIssue: Issue = {
   slug: 'issue-1',
@@ -8,7 +8,6 @@ export const firstIssue: Issue = {
   date: 'Winter/Spring 2012',
   number: 1,
   subjects: ['Math', 'Statistics', 'Probability Theory', 'Biology', 'Economics', 'Computer Science', 'Chemical Engineering & Upper Administration'],
-  tags: ['math', 'biology', 'economics', 'computer science', 'chemistry'],
   contributors: [abby],
-  interviews: [davidAldous],
+  interviews: [davidAldous, peterDuesberg, johnLetiche, christosPapadimitriou, cJudKing],
 }

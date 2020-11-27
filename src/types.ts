@@ -26,7 +26,6 @@ export type Issue = {
   date: string,
   number: number,
   subjects: string[],
-  tags: string[],
   contributors: Contributor[],
   interviews: Professor[],
 }
