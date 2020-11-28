@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>About | Specimen Magazine</title>
 </svelte:head>
 
 <div class="prose">

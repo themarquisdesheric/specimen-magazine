@@ -6,10 +6,15 @@
 </script>
 
 <svelte:head>
-	<title>{status}</title>
+	<title>{status} | Specimen Magazine</title>
 </svelte:head>
 
 <h1>{status}</h1>
+
+{#if status === 404}
+	<!-- TODO -->
+	<p>:(</p>
+{/if}
 
 <p>{error.message}</p>
 

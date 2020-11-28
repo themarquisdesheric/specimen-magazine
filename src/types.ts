@@ -7,6 +7,7 @@ export type Contributor = {
 export type Professor = {
   name: string,
   fields: string[],
+  slug: string,
   interview: Interview,
   website?: string,
 }
@@ -15,17 +16,15 @@ type Interview  = {
   title: string,
   interviewers: Contributor[],
   date: string,
-  slug: string,
-  interview: string,
+  html: string,
   quote: string,
 }
 
 export type Issue = {
-  slug: string,
   title: string,
   date: string,
   number: number,
   subjects: string[],
   contributors: Contributor[],
-  interviews: Professor[],
+  professors: Professor[],
 }

@@ -1,29 +1,24 @@
 <script context="module" lang="ts">
-	export async function preload({ params }) {
-		// the `slug` parameter is available because
-		// this file is called [slug].svelte
-		const res = await this.fetch(`interviews/${params.slug}.json`)
-		const data = await res.json()
-
-		if (res.status === 200) {
-			return { post: data }
-		} else {
-			this.error(res.status, data.message)
-		}
-	}
+	import type { Professor } from '../../types'
+  import { professorsKeyedBySlug } from '../../content'
+	
+  export const preload = async ({ params }) => ({
+		professor: professorsKeyedBySlug[params.slug],
+	})
 </script>
 
 <script lang="ts">
-	export let post: { slug: string; title: string; html: any }
+	export let professor: Professor
 </script>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{professor.name} | Specimen Magazine</title>
 </svelte:head>
 
 <div class="prose">
-	<h1>{post.title}</h1>
+	<h1>{professor.name}</h1>
+	<p class="italic">{professor.interview.quote}</p>
 	<div>
-		{@html post.html}
+		{@html professor.interview.html}
 	</div>
 </div>

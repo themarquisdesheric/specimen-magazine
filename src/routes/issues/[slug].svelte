@@ -2,27 +2,36 @@
   import type { Issue } from '../../types'
   import { issues } from '../../content'
   
-  export async function preload({ params }) {
+  export const preload = async ({ params }) => {
     console.log('params:', params)
 
-    return { post: issues.firstIssue }
+    return { issue: issues.firstIssue }
 	}
 </script>
 
 <script lang="ts">
-  export let post: Issue
+  export let issue: Issue
   
-  const { title, number, date } = post
+  const { title, number, date, professors } = issue
 </script>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>Issue №{number} | Specimen Magazine</title>
 </svelte:head>
 
-<div class="flex justify-between font-extralight">
-  <p class="text-xl">Issue №{number}</p>
-  <p>{date}</p>
-</div>
-<h1 class="font-extrabold text-4xl">{title}</h1>
+<header class="mb-2">
+  <h1 class="flex justify-between text-2xl">
+    <span class="font-extrabold">{title}</span>
+    <span class="font-extralight">{date}</span>
+  </h1>
+  <p class="leading-4 italic">Issue №{number}</p>
+  <hr class="my-2" />
+</header>
+
 <div class="prose">
+  <ul>
+    {#each professors as professor}
+      <li>{professor.name}</li>
+    {/each}
+  </ul>
 </div>

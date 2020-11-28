@@ -5,12 +5,12 @@
     number,
     title,
     date,
-    interviews,
+    professors,
   } = issues.firstIssue
 </script>
 
 <svelte:head>
-	<title>Issues</title>
+	<title>Issues | Specimen Magazine</title>
 </svelte:head>
 
 <h1 class="text-lg font-light pb-2">Issues</h1>
@@ -25,12 +25,14 @@
       <p class="leading-4 italic">Issue №{number}</p>
     </header>
     <hr class="pb-1" />
-    {#each interviews as interview, index}
+    {#each professors as professor, index}
       <section class="py-1 flex justify-between">
-        <p class="flex items-center">{interview.name}</p>
-        <span class="text-xs font-extralight border rounded p-1 bg-gray-50">{interview.fields[0]}</span>
+        <a href="/interviews/{professor.slug}" rel="prefetch">
+          <p class="flex items-center">{professor.name}</p>
+        </a>
+        <span class="text-xs font-extralight border rounded p-1 bg-gray-50">{professor.fields[0]}</span>
       </section>
-      {#if index !== interviews.length - 1}
+      {#if index !== professors.length - 1}
         <hr class="my-1" />
       {/if}
     {/each}
