@@ -21,7 +21,7 @@
 	{/each}
 </ul>
 
-<nav>
+<nav class="border-b">
 	<div class="flex justify-between px-8">
 		<div>
 			<a
@@ -44,10 +44,6 @@
 </nav>
 
 <style>
-	nav {
-		border-bottom: 1px solid rgba(17, 24, 39, .5);
-	}
-
 	.hamburger-menu {
     left: .45rem;
 	}

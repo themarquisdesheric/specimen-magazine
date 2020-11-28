@@ -25,3 +25,9 @@
 		{/each}
 	</ul>
 </div>
+
+<style>
+	li {
+		font-family: 'Open Sans', sans-serif;
+	}
+</style>
