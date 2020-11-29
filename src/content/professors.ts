@@ -5,7 +5,7 @@ import interviews from './interviews/*.md'
 
 const davidAldous: Professor = {
   name: 'David Aldous',
-  fields: ['Math', 'Statistics', 'Probability Theory'],
+  tags: ['math', 'statistics', 'probability theory'],
   slug: 'david-aldous',
   interview: {
     title: '',
@@ -18,7 +18,7 @@ const davidAldous: Professor = {
 
 const peterDuesberg: Professor = {
   name: 'Peter Duesberg',
-  fields: ['Biology', 'Virology', 'Cancer Research'],
+  tags: ['biology', 'virology', 'cancer research'],
   slug: 'peter-duesberg',
   interview: {
     title: '',
@@ -31,7 +31,7 @@ const peterDuesberg: Professor = {
 
 const johnLetiche = {
   name: 'John Letiche',
-  fields: ['Economics'],
+  tags: ['economics'],
   slug: 'john-letiche',
   interview: {
     title: 'Professor Emeritus of International Economics',
@@ -44,7 +44,7 @@ const johnLetiche = {
 
 const christosPapadimitriou = {
   name: 'Christos Papadimitriou',
-  fields: ['Computer Science', 'Theory of Algorithms', 'Computational Complexity', 'Evolution', 'Game Theory', 'Optimization', 'Databases'],
+  tags: ['computer science', 'theory of algorithms', 'computational complexity', 'evolution', 'game theory', 'optimization', 'databases'],
   slug: 'christos-papadimitriou',
   interview: {
     title: '',
@@ -57,7 +57,7 @@ const christosPapadimitriou = {
 
 const cJudKing = {
   name: 'C. Judson King',
-  fields: ['Chemistry', 'Chemical Engineering', 'Upper Administration'],
+  tags: ['chemistry', 'chemical engineering'],
   slug: 'c-judson-king',
   interview: {
     title: '',

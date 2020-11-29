@@ -6,7 +6,7 @@ export type Contributor = {
 
 export type Professor = {
   name: string,
-  fields: string[],
+  tags: string[],
   slug: string,
   interview: Interview,
   website?: string,

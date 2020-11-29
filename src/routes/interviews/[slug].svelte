@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import type { Professor } from '../../types'
-  import { professorsKeyedBySlug } from '../../content'
+	import { professorsKeyedBySlug } from '../../content'
+	import Tag from '../../components/Tag.svelte'
 	
   export const preload = async ({ params }) => ({
 		professor: professorsKeyedBySlug[params.slug],
@@ -10,7 +11,7 @@
 <script lang="ts">
 	export let professor: Professor
 
-	const { name, interview: { interviewers, quote, date, html } } = professor
+	const { name, tags, interview: { interviewers, quote, date, html } } = professor
 </script>
 
 <svelte:head>
@@ -34,13 +35,21 @@
 			{/if}
 		</div>
 		<p class="italic">{quote}</p>
-
 		<div class="flex justify-center items-center">
 			<div class="border-b w-full mr-3" />
 			<p>{date}</p>
 			<div class="border-b w-full ml-3" />
 		</div>
 	</header>
+	<div class="flex justify-center my-5">
+		{#each tags as tag, index}
+			<Tag
+				tag={tag}
+				lastOrOnlyTag={tags.length - 1 === index}
+				className="mb-2"
+			/>
+		{/each}
+	</div>
 	<div>
 		{@html html}
 	</div>

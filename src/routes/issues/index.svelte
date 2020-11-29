@@ -1,5 +1,6 @@
 <script lang="ts">
   import { issues } from '../../content'
+  import Tag from '../../components/Tag.svelte'
 
   const {
     number,
@@ -31,7 +32,7 @@
           <a href="/interviews/{professor.slug}" rel="prefetch">
             <p>{professor.name}</p>
           </a>
-          <span class="text-xs font-extralight border rounded p-1 bg-gray-50">{professor.fields[0]}</span>
+          <Tag tag={professor.tags[0]} />
         </section>
         {#if index !== professors.length - 1}
           <hr class="my-1" />

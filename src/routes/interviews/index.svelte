@@ -13,17 +13,19 @@
 	<title>Interviews | Specimen Magazine</title>
 </svelte:head>
 
-<div class="prose">
-	<h1>Interviews</h1>
-	<ul>
-		{#each professors as professors}
-			<!-- we're using the non-standard `rel=prefetch` attribute to
-					tell Sapper to load the data for the page as soon as
-					the user hovers over the link or taps it, instead of
-					waiting for the 'click' event -->
-			<li><a rel="prefetch" href="/interviews/{professors.slug}">{professors.name}</a></li>
-		{/each}
-	</ul>
+<div class="w-full">
+	<h1 class="text-lg font-light">Interviews</h1>
+	<div class="prose">
+		<ul>
+			{#each professors as professors}
+				<!-- we're using the non-standard `rel=prefetch` attribute to
+						tell Sapper to load the data for the page as soon as
+						the user hovers over the link or taps it, instead of
+						waiting for the 'click' event -->
+				<li><a rel="prefetch" href="/interviews/{professors.slug}">{professors.name}</a></li>
+			{/each}
+		</ul>
+	</div>
 </div>
 
 <style>
