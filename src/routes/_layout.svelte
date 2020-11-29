@@ -12,6 +12,7 @@
 
 <style>
 	main {
+		margin-top: 57px;
 		max-width: 56em;
 		background-color: white;
 		box-sizing: border-box;

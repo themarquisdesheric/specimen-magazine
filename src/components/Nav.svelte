@@ -11,22 +11,23 @@
 	$: maxHeight = isMobileMenuOpen ? '175px' : '0px'
 </script>
 
-<!-- mobile menu -->
-<ul
-	class="mobile-menu text-center overflow-hidden font-extralight"
-	style="--maxHeight: {maxHeight};"
->
-	{#each linkNames as linkName}
-		<NavLink {segment} {linkName} mobileMenu={true} {toggleMobileMenu} />
-	{/each}
-</ul>
+<nav class="fixed top-0 left-0 w-full z-10 bg-white">
+	<!-- mobile menu -->
+	<ul
+		class="mobile-menu text-center overflow-hidden font-extralight"
+		style="--maxHeight: {maxHeight};"
+	>
+		{#each linkNames as linkName}
+			<NavLink {segment} {linkName} mobileMenu={true} {toggleMobileMenu} />
+		{/each}
+	</ul>
 
-<nav class="border-b">
+	<!-- logo -->
 	<div class="flex justify-between px-8">
 		<div>
 			<a
 				href="."
-				class="font-extrabold pl-0"
+				class="logo font-extrabold pl-0"
 			>Specimen</a>
 		</div>
 	
@@ -44,33 +45,13 @@
 </nav>
 
 <style>
-	.hamburger-menu {
-    left: .45rem;
+	nav {
+		box-shadow: 0 1px 4px rgba(0,0,0,.18);
 	}
-
-	nav :global([aria-current]) {
-		position: relative;
-		display: inline-block;
-	}
-
-	nav :global([aria-current]::after) {
-		position: absolute;
-		content: '';
-		width: calc(100% - .5em);
-		height: 2px;
-		background-color: rgb(0, 0, 0);
-		display: block;
-		bottom: -1px;
-	}
-
-	nav :global(a) {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-	}
-
+	
 	div :global(a) {
-		padding-left: 0;
+		text-decoration: none;
+		display: block;
 	}
 
 	.mobile-menu {
@@ -84,8 +65,40 @@
 		margin: 1rem 0;
 	}
 
+	.logo {
+		padding: 1em 0.5em 1em 0;
+	}
+
+	.hamburger-menu {
+    left: .45rem;
+	}
+
 	.regular-menu {
 		display: none;
+	}
+
+	.regular-menu :global(a) {
+		padding: 1em 0;
+		margin: 0 .5em;
+	}
+
+	.regular-menu :global(li):last-child :global(a) {
+		margin-right: 0;
+	}
+
+	.regular-menu :global([aria-current]) {
+		position: relative;
+		display: inline-block;
+	}
+
+	.regular-menu :global([aria-current]::after) {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 2px;
+		background-color: rgb(0, 0, 0);
+		display: block;
+		bottom: -1px;
 	}
 
 	@media (min-width: 400px) {

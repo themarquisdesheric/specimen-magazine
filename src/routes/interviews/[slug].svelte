@@ -41,7 +41,7 @@
 			<div class="border-b w-full ml-3" />
 		</div>
 	</header>
-	<div class="flex justify-center my-5">
+	<div class="flex flex-wrap justify-center my-5">
 		{#each tags as tag, index}
 			<Tag
 				tag={tag}
