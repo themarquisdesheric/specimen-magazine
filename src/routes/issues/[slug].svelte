@@ -1,9 +1,8 @@
 <script context="module" lang="ts">
   import type { Issue } from '../../types'
   import { issues } from '../../content'
+  import IssueCard from '../../components/IssueCard.svelte'
 
-  // ! issue page: not necessary for MVP
-  
   export const preload = async ({ params }) => {
     console.log('params:', params)
 
@@ -14,28 +13,17 @@
 <script lang="ts">
   export let issue: Issue
   
-  const { title, number, date, professors } = issue
+  const { number } = issue
 </script>
 
 <svelte:head>
 	<title>Issue №{number} | Specimen Magazine</title>
 </svelte:head>
 
-<div>
-  <header class="mb-2">
-    <h1 class="flex justify-between text-2xl">
-      <span class="font-extrabold">{title}</span>
-      <span class="font-extralight">{date}</span>
-    </h1>
-    <p class="leading-4 italic">Issue №{number}</p>
-    <hr class="my-2" />
-  </header>
+<div class="w-full">
+  <h1 class="text-lg font-light pb-2">Issue №{number}</h1>
   
-  <div class="prose">
-    <ul>
-      {#each professors as professor}
-        <li>{professor.name}</li>
-      {/each}
-    </ul>
-  </div>
+  <IssueCard hideIssueNumber={true} />
+
+  Reading List
 </div>
