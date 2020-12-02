@@ -12,6 +12,7 @@
     rel={segment === 'interviews' ? 'prefetch' : undefined}
     aria-current={segment === linkName ? 'page' : undefined}
     href={linkName}
+    class="w-full inline-block"
     class:font-light={segment === linkName && mobileMenu}
   >
     {linkName}

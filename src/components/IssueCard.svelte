@@ -41,9 +41,4 @@
     max-width: 315px;
     margin: 0 3rem 1rem 0;
   }
-
-  .issue-card header p,
-  .issue-card section {
-    font-family: 'Open Sans', sans-serif;
-  }
 </style>

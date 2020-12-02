@@ -61,6 +61,10 @@
 		margin: 0;
 	}
 
+	header div p {
+		text-align: center;
+	}
+
 	header div p.italic {
 		font-family: gentium, serif;
 	}
