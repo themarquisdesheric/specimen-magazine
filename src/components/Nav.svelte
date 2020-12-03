@@ -23,7 +23,7 @@
 	</ul>
 
 	<!-- logo -->
-	<div class="flex justify-between px-8">
+	<div class="max-width flex justify-between mx-auto">
 		<div>
 			<a
 				href="."
@@ -47,6 +47,10 @@
 <style>
 	nav {
 		box-shadow: 0 1px 4px rgba(0,0,0,.18);
+	}
+
+	nav > div {
+    width: calc(100% - 4rem);
 	}
 	
 	div :global(a) {
@@ -94,7 +98,7 @@
 	.regular-menu :global([aria-current]::after) {
 		position: absolute;
 		content: '';
-		width: 100%;
+		width: calc(100% - .7em);
 		height: 2px;
 		background-color: rgb(0, 0, 0);
 		display: block;

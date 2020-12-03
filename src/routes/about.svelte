@@ -2,7 +2,7 @@
 	<title>About | Specimen Magazine</title>
 </svelte:head>
 
-<div class="w-full">
+<div class="max-width w-full">
 	<h1 class="text-lg font-light">About this site</h1>
 	<div class="prose">
 		<div>
