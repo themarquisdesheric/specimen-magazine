@@ -2,11 +2,9 @@
   import type { Issue } from '../../types'
   import { issues } from '../../content'
 
-  export const preload = async ({ params }) => {
-    console.log('params:', params)
-
-    return { issue: issues.firstIssue }
-	}
+  export const preload = async ({ params }) => ({
+    issue: issues.firstIssue
+  })
 </script>
 
 <script lang="ts">
