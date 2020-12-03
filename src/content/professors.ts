@@ -12,7 +12,7 @@ const davidAldous: Professor = {
     interviewers: [abby],
     date: '2011',
     html: '',
-    quote: `"In some sense, everything interesting about the future is uncertain. You can predict the times of sunrise and sunset in 20 years. But those are boring things. What's going to happen to you and me personally, the state of the world in 20 or 30 years.. all the interesting parts of that are uncertain."`,
+    quote: `"In some sense, everything interesting about the future is uncertain. You can predict the times of sunrise and sunset in 20 years. But those are boring things. What's going to happen to you and me personally, the state of the world in 20 or 30 years... all the interesting parts of that are uncertain."`,
   }
 }
 
@@ -25,7 +25,7 @@ const peterDuesberg: Professor = {
     interviewers: [abby],
     date: '2012',
     html: '',
-    quote: '',
+    quote: `“Here you try your best, at least you think, to say what's really going on. And AIDS would be… not like cancer, where I say maybe we have the truth but it's not going to be a picnic either. But with AIDS, it could be a stroke of a pen and AIDS would be gone."`,
   }
 }
 
