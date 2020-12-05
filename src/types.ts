@@ -1,7 +1,7 @@
 export type Contributor = {
   name: string,
   title: string,
-  website?: string,
+  url?: string,
 }
 
 export type Professor = {
@@ -9,7 +9,7 @@ export type Professor = {
   tags: string[],
   slug: string,
   interview: Interview,
-  website?: string,
+  url?: string,
 }
 
 type Interview  = {
@@ -28,4 +28,12 @@ export type Issue = {
   contributors: Contributor[],
   professors: Professor[],
   intro: string,
+  readingList: ReadingListItem[],
+}
+
+export type ReadingListItem = {
+  title: string,
+  subtitle?: string,
+  author: string,
+  url: string,
 }

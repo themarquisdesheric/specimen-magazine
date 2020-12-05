@@ -70,9 +70,9 @@ It is the biggest windfall for pharma-companies ever. It was chemotherapy for th
  
 Yeah, for sure. The treatment for AIDS is essentially a lifetime prescription of chemotherapy. It's truly horrible. The only thing they have done – if you want to call it an improvement – is making it less toxic. They lowered doses over time because people were dying pretty fast on the original doses. And what do they give? They give you drugs, like AZT, that were developed for cancer chemotherapy, developed to kill your own cells. AZT is a DNA chain terminator, a drug designed to stop DNA synthesis in the cell. When that happens, the cell goes. And that was developed to, quote, “cure cancer.” That is cancer chemotherapy. As I said, even that is not exactly God's invention.
 
-<em class="interviewer">Can you describe, what happened when you came out with this book, *Inventing the AIDS Virus?*</em>
+<em class="interviewer">Can you describe, what happened when you came out with this book, <a href="https://www.goodreads.com/book/show/79375.Inventing_the_AIDS_Virus" target="_blank" rel="noopener noreferrer">Inventing the AIDS Virus</a>?</em>
 
-Oh, *Inventing the AIDS Virus*. Yeah. It was mentioned in the New York Times once, but always negative and always hesitant.
+Oh, <a href="https://www.goodreads.com/book/show/79375.Inventing_the_AIDS_Virus" target="_blank" rel="noopener noreferrer">Inventing the AIDS Virus</a>. Yeah. It was mentioned in the New York Times once, but always negative and always hesitant.
 
 <em class="interviewer">So, it's been kind of pushed aside and not taken seriously?</em>
 
