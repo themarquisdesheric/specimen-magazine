@@ -19,5 +19,6 @@
     text-decoration: none;
     font-weight: 200;
     white-space: nowrap;
+    max-height: 1.625rem;
   }
 </style>

@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
   import type { Issue } from '../../types'
   import { issues } from '../../content'
+  import Tag from '../../components/Tag.svelte'
 
   export const preload = async ({ params }) => ({
     issue: issues.firstIssue
@@ -10,7 +11,7 @@
 <script lang="ts">
   export let issue: Issue
   
-  const { title, number, date, intro, readingList } = issue
+  const { title, number, date, intro, readingList, professors } = issue
 </script>
 
 <svelte:head>
@@ -43,6 +44,16 @@
   </div>
 
   <h2>Interviews</h2>
+  <div>
+    <ul>
+      {#each professors as professor}
+        <li class="flex justify-between">
+          <a rel="prefetch" href="/interviews/{professor.slug}">{professor.name}</a>
+          <Tag tag={professor.tags[0]} />
+        </li>
+      {/each}
+    </ul>
+  </div>
 </div>
 
 <style>
@@ -70,4 +81,12 @@
   hr {
     margin: .5rem 0;
   }
+
+	li {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	li a {
+		margin: 0;
+	}
 </style>
