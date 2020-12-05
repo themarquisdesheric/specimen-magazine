@@ -25,23 +25,7 @@
     <span>{date}</span>
   </div>
 
-  <p>{intro}</p>
-
-  <h2 class="pb-2">Reading List</h2>
-  <p class="font-extralight">Books discussed in this issue</p>
-  <div class="flex flex-wrap justify-between">
-    {#each readingList as book}
-      <section class="mb-2 sm:mb-4">
-        <a href={book.url} target="_blank" rel="noopener noreferrer">
-          <p class="font-semibold font-sans">{book.title}</p>
-        </a>
-        {#if book.subtitle}
-          <p class="text-sm italic">{book.subtitle}</p>
-        {/if}
-        <p class="text-sm">{book.author}</p>
-      </section>
-    {/each}
-  </div>
+  <p>{@html intro}</p>
 
   <h2>Interviews</h2>
   <div>
@@ -53,6 +37,22 @@
         </li>
       {/each}
     </ul>
+  </div>
+
+  <h2 class="pb-2">Reading List</h2>
+  <p class="font-extralight">Books discussed in this issue</p>
+  <div class="flex flex-wrap justify-between">
+    {#each readingList as book}
+      <section class="mb-2 sm:mb-4">
+        <a href={book.url} target="_blank" rel="noopener noreferrer">
+          <p class="font-sans">{book.title}</p>
+        </a>
+        {#if book.subtitle}
+          <p class="text-sm italic">{book.subtitle}</p>
+        {/if}
+        <p class="text-sm">{book.author}</p>
+      </section>
+    {/each}
   </div>
 </div>
 
