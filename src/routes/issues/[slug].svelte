@@ -3,8 +3,8 @@
   import { issues } from '../../content'
   import Tag from '../../components/Tag.svelte'
 
-  export const preload = async ({ params }) => ({
-    issue: issues.firstIssue
+  export const preload = async () => ({
+    issue: issues[0]
   })
 </script>
 
@@ -76,10 +76,6 @@
   
   .prose a section p {
     text-decoration: none;
-  }
-
-  hr {
-    margin: .5rem 0;
   }
 
 	li {

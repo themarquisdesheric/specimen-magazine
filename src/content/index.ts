@@ -2,7 +2,7 @@
 import interviews from './interviews/*.md'
 import * as contributors from './contributors'
 import professors, { professorsKeyedBySlug } from './professors'
-import * as issues from './issues'
+import issues from './issues'
 
 export {
   interviews,

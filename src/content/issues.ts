@@ -1,8 +1,8 @@
-import type { Issue } from '../types'
+import type { Issue, ReadingListItem } from '../types'
 import { abby } from '../content/contributors'
 import professors from '../content/professors'
 
-const readingList = [
+const readingList: ReadingListItem[] = [
   {
     title: 'The Black Swan',
     subtitle: 'The Impact of the Highly Improbable',
@@ -22,7 +22,7 @@ const readingList = [
   },
 ]
 
-export const firstIssue: Issue = {
+const firstIssue: Issue = {
   title: 'Berkeley University',
   date: '2012',
   number: 1,
@@ -33,3 +33,5 @@ export const firstIssue: Issue = {
   <p class="italic">Specimen Magazine is not affiliated with the University of California and does not claim authorship for any of the views expressed herein. Read at your own risk.</p>`,
   readingList,
 }
+
+export default [firstIssue]

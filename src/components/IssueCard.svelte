@@ -7,7 +7,7 @@
     title,
     date,
     professors,
-  } = issues.firstIssue
+  } = issues[0]
 </script>
 
 <a href="/issues/{number}" rel="prefetch" class="issue-card w-full">
