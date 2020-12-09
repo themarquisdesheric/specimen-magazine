@@ -43,4 +43,4 @@ const secondIssue: Issue = {
   readingList: [],
 }
 
-export default [firstIssue]
+export default [firstIssue, secondIssue]
