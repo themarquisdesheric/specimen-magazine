@@ -3,9 +3,10 @@
   import { issues } from '../../content'
   import Tag from '../../components/Tag.svelte'
 
-  export const preload = async () => ({
-    issue: issues[0]
+  export const preload = async ({ params }) => ({
+    issue: issues[params.slug - 1]
   })
+  
 </script>
 
 <script lang="ts">

@@ -31,7 +31,7 @@
 							</li>
 					{/each}
 				</ul>
-				{#if issues.length === index - 1}
+				{#if issues.length - 1 !== index}
 					<hr />
 				{/if}
 			{/each}

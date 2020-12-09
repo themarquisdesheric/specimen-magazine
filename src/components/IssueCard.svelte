@@ -1,13 +1,15 @@
 <script lang="ts">
-  import { issues } from '../content'
+  import type { Issue } from '../types';
   import Tag from './Tag.svelte'
+
+  export let issue: Issue
 
   const {
     number,
     title,
     date,
     professors,
-  } = issues[0]
+  } = issue
 </script>
 
 <a href="/issues/{number}" rel="prefetch" class="issue-card w-full">

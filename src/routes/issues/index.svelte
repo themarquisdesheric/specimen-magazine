@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { issues } from '../../content'
   import IssueCard from '../../components/IssueCard.svelte'
 </script>
 
@@ -10,8 +11,8 @@
   <h1 class="text-lg font-light pb-2">Issues</h1>
   
   <div class="flex flex-wrap justify-between">
-    {#each [1,2,3,4,5] as _}
-      <IssueCard />
+    {#each issues as issue}
+      <IssueCard {issue} />
     {/each}
   </div>
 </div>
