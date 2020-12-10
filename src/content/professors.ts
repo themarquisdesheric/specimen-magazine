@@ -39,7 +39,7 @@ const firstIssueProfessors: Professor[] = [
       interviewers: [abby],
       date: '2012',
       html: '',
-      quote: '',
+      quote: '“I think that to a very substantial degree, the economics profession was trapped in the arrogance of the age itself, in the last 35 years.”',
     }
   },
   {

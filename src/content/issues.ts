@@ -20,6 +20,12 @@ const readingList: ReadingListItem[] = [
     author: 'Peter Duesberg',
     url: 'https://www.goodreads.com/book/show/79375.Inventing_the_AIDS_Virus',
   },
+  {
+    title: 'Crises and Compassion',
+    subtitle: 'From Russia to the Golden Gate',
+    author: 'John Letiche',
+    url: 'https://www.mqup.ca/crises-and-compassion-products-9780773538207.php',
+  },
 ]
 
 const firstIssue: Issue = {
