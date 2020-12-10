@@ -90,5 +90,116 @@ It's a big big publisher, and they don't want to be criticized by mainstream sci
 
 <em class="interviewer">When would it have been published?</em>
 
-In 2009.
+In 2009. It was already there. I have it on my desktop… quite a few people have it. And they can’t stop it. It’s still in the so-called DOI file or somewhere. It’s semi-extinguishable. They do it subtly now. Typically, they send it to a so-called peer reviewer, meaning somebody who is in the establishment already and knows what to do with it. It’s sort of essentially abortion. Reviewers typically kill it before publication. This can be done secretly. It’s anonymous. Typically, with peer review, you don’t have to put your name. They say, well, this is risky, and can dump on it without having to sign and give enough reasons. Typically, the editor and the editorial board know this is not good for them, so they say, too bad, we cannot publish your paper. But this time it slipped through, and it was already in their journal. Now they couldn’t do this anymore. 
 
+<em class="interviewer">What was it called?</em>
+
+*Medical Hypotheses*, the journal.
+
+<em class="interviewer">What was your essay called?</em>
+
+Well, I have published along these lines before, but this one was called *HIV-AIDS hypothesis out of touch with South African AIDS — A new perspective*. I focused it on Africa a long time ago, but the whole continent is covered in it, *A new perspective*. It was relatively clear, what I was saying. I think it was the emperor’s new clothes that killed it. The major charge was that I had killed 1.8 million when there were 3 million more. I think they even didn’t know. They didn’t check. They may have checked, but nobody ever mentioned these numbers. So we checked. It’s not a secret. Really. You can go to the website of the U.S. Census Bureau and they say exactly what the populations are. They have national and international tables. They keep tabs. I think it’s part of national security because they want to know how many people there are per country to know what would happen in a war: how much food they need, how much ammunition they need, and what the national social product is going to be, for that purpose. The U.S. keeps very good numbers on that. 
+
+<em class="interviewer">That was one of my questions. Are you debating the interpretation of the facts or are the facts themselves in question? It sounds like it is a little bit of both.</em>
+
+In this case, I would definitely first take the quoted fact that people were lost in this country. That’s just a matter of looking at facts, not interpretation. Sure, the interpretation comes next. They interpreted an assumed loss of 1.8 million, without mentioning the gain of 3 million.
+
+See *Medical Hypothesis* was founded by Horrobin. He’s a British biochemist. He said exactly what I’m saying. This whole thing with reviewing papers before they get pub lished by the peers is a completely incestuous process, because those who are getting to review grant applications and papers usually *are* the current establishment, the mainstream establishment. I was part of it myself before I questioned the HIV hypothesis. We were reviewing grant applications and papers. It’s easy enough to filter out someone who is totally nuts, and says it’s Chinese tea or something like that, but if there is someone who is threatening your own investment, someone who says, for instance, that cancer is caused by chromosomes, or carcinogens, or lifestyle, that it has nothing to do with viruses, we would have done away with it, because it would have been threatening our own investments, our awards and chances to get grants and stay in business. It’s a biological thing. It’s self-interest, I think. You tend to take care of yourself first. It doesn’t mean that you are a bad guy, but you may not see other points so easily. You have to work on it, to be tolerant enough. 
+
+So, this is why this journal *Medical Hypotheses* came up. [Horrobin] said the bias is so obvious in this peer review system. You send in an AIDS paper anywhere in America, I would say anywhere in the Western world by now, that questions HIV, and it will not be accepted.
+
+This was essentially the only chance left, this *Medical Hypotheses* journal, that I know. And that’s a well established journal, but it’s clearly a minority journal. It’s like an outsider’s journal. But they stated, we don’t give it to peers who have an inherent conflict of interest, who want to defend their field. And beyond just criticizing their competition, they would not want to have something published that gives a new perspective on AIDS when they all have worked on AIDS and want to work on HIV and make a career on HIV.
+
+<em class="interviewer">Sounds like the way microbes operate.</em>
+
+So that’s exactly right. They said we have this journal without the conventional peer review, oh, that’s the problem. They not only took out our paper, they fired the editor in chief. He’s gone. He’s a professor from Newcastle University, and he was the successor of the editor in chief who died a few years earlier. He is British professor of science and history, perfectly suited for the job, but they fired him because he would not agree to install conventional peer review, where the guys in the field are judging. It’s like having General Motors or Volkswagen review all of the new cars... 
+
+<em class="interviewer">There’s not really a better option, is there?</em>
+
+He said, we’ll publish it if it’s consistent — we have our own reviewers. If it’s logical, there it is. Everybody can attack it or reject it once it’s published. We are not protecting this paper against reasonable attacks. So they certainly knew 
+that they could answer the charge, but they chose to go to Elsevier, the publisher, a huge publishing house, and said, close down the journal, it’s a world public health risk, what our critics are doing now. Most of them were anonymous but one of them was Barré-Sinoussi, who shared the Nobel Prize on HIV with Montagnier, according to an editorial in *Science*. A Nobelist defending her prize by censoring dissent.
+
+<em class="interviewer">I see. That sounds like quite an investment to me. </em>
+
+Oh, it’s a big one. So, essentially, they threw out the editor in chief. They took out an Italian AIDS paper which was published at the same time, also questioning AIDS to some degree, which I didn’t know about at the same time, and the editorial board was fired too. In other words, they’d have experts re viewing who have their own career made in, let’s say, in cancer, it would be in mutations, or in AIDS it would be HIV. And that’s a terrible, unfortunately, a terrible situation. I think it’s bad for American science and science in general. Putting so much money on so many hopes and then… 
+
+<em class="interviewer">People, of course, say that it’s the drugs that are keeping it stable. </em>
+
+No, they couldn’t make that argument in Africa because I had prevented them from getting drugs with Mbeki! Without the drugs these guys are exploding! But that they didn’t want to hear. See? That was bad for their case… 
+
+Abby, is your paper school-linked or is it just...? 
+
+<em class="interviewer">No, it’s totally independent. </em>
+
+Do you have an issue yet or not yet? 
+
+<em class="interviewer">This is the first. </em>
+
+And there are some more mass murderers in it? Saddam Hussein or Bin Laden? 
+
+<em class="interviewer">Yes, it’s the mass murderer issue…It must be difficult to receive that…Is it difficult?</em>
+
+Sometimes I laugh about it, most of the time. It sometimes gets you down in the foggy morning. Here you try your best, at least you think, to say what’s really going on. And AIDS would be preventable, by banning or not taking drugs—not like cancer, where I say maybe we have the truth but it’s not going to be a picnic. With AIDS, it could be a stroke of a pen and AIDS would be gone. You could stop the anti-viral treatments, which are AIDS by prescription. 
+
+They are toxic. They are designed that way. It’s not a side effect. That’s what they were designed to do, kill cells. And that’s what they do. And that’s going to kill people. It’s just a matter of time, how much you take. 
+Also, you could make a lot of progress if you told the kids, maybe now they don’t even know much about AIDS anymore, but 10 years ago, if you take all these drugs, amphetamines, cocaine or heroin that’s going to give you AIDS, not some date or some mate. That would probably be one of the more effective weapons in the war on drugs. I think if they had a choice, many of them would probably stop using these things. I think they need to impress each other with big numbers, but I think if they knew that these poppers were toxic, they would think it over. Most of them I know actually suspect it anyway. That it’s not the virus or certainly not only the virus. If we tell them clearly, it’s not your sex. Sex is not new like AIDS. 
+But what’s new in our society, our population, our time, is the availability of all these psychoactive drugs, the horrible anti-viral drugs and the combination of them. That’s inevitably what’s associated with AIDS patients in Europe and the U.S. or the so-called Western world. In Africa, it’s poverty and not much is happening anyway. It’s [the population] exploding, not disappearing. So to make that clear and ban the use, the sale even of anti-viral drugs, would essentially eliminate AIDS. But not with cancer. That would be more difficult. Even there, for anything to happen scientifically, you need a theory. You need a rational theory that is testable to find out what cancer is really all about, rather than guessing around.
+
+<p class="highlight">But we cure, cure, cure. Cure what?</p>
+
+People always like to talk cures. They jog for an AIDS cure and a cancer cure and pay tons of money. And those who promise the easiest and the fastest cure are now the leading scientists. And if you say you don’t even have a good theory or the theory is wrong, they get mad at you. 
+
+<em class="interviewer">So, you plan to focus on cancer research?</em>
+
+That was in fact my initial focus, and since viruses were said to be the cause, particularly the retroviruses…I was an expert. I was worth 25 years on retroviruses. I determined the genetic map of them, I mean, the so-called genetic structure, how they replicate, and even identified the so-called oncogene. So that was my claim to fame. So I had big investments in it. 
+
+<em class="interviewer">But at the same time, nobody is listening to you about these matters.</em>
+
+By criticizing the virus theory, I am working against my own interest, I mean career-wise interest, that there’s something wrong with this virus theory. The genetic map of HIV is the same as we worked out in this 
+lab here 20 years ago for mouse and chicken retroviruses, and even some mouse, rat viruses. They all have the same basic genetic makeup and they do nothing, or hardly anything. 
+
+<em class="interviewer">You mean, they are not fatal unless other factors are involved?</em>
+
+Not even unless. They are not fatal period. Other factors could be involved. But I mean, you could have that virus and be shot by a gun. And you’d be done. But they don’t have anything causally to do with each other. They are by themselves, harmless. If you have a car accident, too bad, but the virus is not the cause of that. It could happen with or without the virus. It would be the same. 
+
+<em class="interviewer">Or with or without tuberculosis.</em>
+
+That’s right. They try to make it co-factors. If they are in a corner with the virus not doing much, well it’s a co-factor for something. They say, this plus something else. But then we have to know exactly what plus something else is. And I tell you what the plus something else is. I know they don’t need the virus. You can give them an antiviral drug, which is a chain terminator of DNA synthesis. It doesn’t need HIV to terminate DNA. And the same thing with the so-called i.v. drug users. 
+What about the long latent period? Well the long latent period, ten years or five years—that’s the time it takes from starting to inject drugs to ending up in People’s Park or going in the hospital with pneumonia. Yes, that’s what it is. You’re not getting AIDS from injecting drugs even for 10 or 20 parties, but then it gets a bit worse over time. If you have no time to do anything else, and if you run out of money to pay for it, can’t pay the rent, can’t take a shower, can’t get new underwear, and start smelling and rotting in the park, then you end up in the hospital. They say, poor guy, you have HIV. Take a shower, we’ll give you anti-viral drugs. That’s even worse. So the HIV is not doing anything by itself as far as I can tell. 
+
+<em class="interviewer">And that point seems to be very controversial, just in the general public.</em>
+
+
+
+It shouldn’t be but they are always told it’s so bad. But if they looked at the numbers, they would see very fast that it doesn’t fit. We have a million HIV positives since 1985. And where are they? There’s still a million HIV positives now. Why didn’t they die out from HIV? They say, oh, this has a long latent period. What does that mean? The virus replicates in 24 hours. There is no long latent period for any virus whatsoever. The latent period is the time it needs to get into the cell, replicate, and get out. And that’s totally timed by the cell. It doesn’t have its own machine. It works exactly with the cell. So, there is no explanation for these long latent time periods. The latent periods are…that’s how long it takes when you have a certain lifestyle to wear yourself down. Even if it was the best lifestyle, you were out at the end of 80 years or 90 years, but with these drugs, you burn up your credits faster. Your God given time credits. 
+
+Since we all have our focus thanks to the CDC and the constant propaganda on this one latent virus...There are dozens of latent viruses and bacteria in us, dozens and dozens. But because they are known longer, and nobody has claimed we discovered it only in ’84, it’s not so easy to sell. With a new one, you can say quickly, oh, this is my terrible new virus. That will cause all the problems we have now. There is no old textbook or doctor or somebody saying that we had this 50 years ago and nothing happened. 
+
+<em class="interviewer">And that’s what we saw with the swine flu and SARS and all that?</em>
+
+Nothing, nothing happened. 
+
+<em class="interviewer">I’m a person who went through a university education, and this is really the first that I’ve ever heard of this view.</em>
+
+You must have read something. That’s why you came. 
+
+<em class="interviewer">I heard about you only this year, and your work. What I mean to say is that the mainstream view is so completely accepted.</em>
+
+There will be a conference in December, I think, in Washington by this Rethinking AIDS group. You could look it up on the website. R.A. Rethinking AIDS. I used to be part of it or still am part of it. There are almost two thousand names, science writers or scientists, who have signed on that they have doubts about HIV-AIDS. One big name is Kary Mullis. He is here in California. He wrote the introduction to this book *Inventing the AIDS Virus*. It’s a funny story in a way. Here is a Nobel prize winner, looking for a paper that proves HIV is causing AIDS and has not been able to find it. Great scientist. Good enough to invent polymerase chain reaction. And he describes the HIV problem in just a few words. Did 
+you read that foreword in the book? In the end he meets Montagnier at a meeting. And he talked to him, and immediately Montagnier looked how to escape. So where is the paper?, he said. The CDC. What? The CDC? You got the Nobel Prize for it. Don’t you have a paper that proves it? Well, uh, then he’s running away. He says, he was running away faster than he could follow him for his Nobel Prize winning discovery. That’s the first time he’s seen a scientist doing this. Typically, they can’t get enough of saying what they have done and how they can prove it, and he was running away all the time. So, from then on, he joined me and invited me for a meeting down there, and he wrote the introduction to the book, the foreword. 
+
+<em class="interviewer">What year was that published?</em>
+
+In 1996. I know. It seems kind of old, but the irony is, when I read it recently. Exactly the same problems are still around, and all of the predictions, everyone of them in there I think proved to be right: that the drugs wouldn’t cure, a vaccine would not be found. You know Edward Jenner was the country doctor who invented vaccination. It’s called vaccination because he found that pox occur in cows also. The Latin word for cow is vacca. So he took an extract from the cow that had recovered from the pox and thought maybe that protects other people too. And apparently, they say, he tried it on his kid. Inoculated some extract in the kid and several others too, and they didn’t get pox virus. And he deduced this must work on other people and succeeded in inoculating other people with it. So he discovered the principle of vaccination, that an infection induces something that protects against a new infection, that’s the antibody, and he essentially designed the first vaccine against pox virus which is still used today. That was 200 years ago. He got 30 pounds from the English government and developed it with his son in his practice in 6 months. And here is the most sophisticated, advanced, affluent, everything America, we 
+
+are working now since 1984 on a vaccine against HIV. I think they have spent, I don’t know how many billions so far. And we have nothing. 
+
+<em class="interviewer">And we won’t ever have it?</em>
+
+That’s what I and *Inventing the AIDS Virus* kept saying for decades now. Because you can’t have a vaccine against a disease that isn’t caused by a virus. You can have a vaccine, but it won’t protect you against the disease that’s not caused by the virus. 
+
+All viruses strike before immunity strikes back. They are essentially doing a blitzkrieg. They attack fast, before you can defend yourself. That’s their only chance. For flu, for measles, for mumps. They cause lesions or fever or sometimes even death, but rarely that. In the meantime, your immune system catches up. And that’s a matter of days. It’s very fast, the immune system. It’s not waiting. It better not. Otherwise, you would be gone. And the virus grows exponentially and the immune system, at the same rate, sometime even faster, makes B Cells and T Cells. And within 3 or 4 days typically, the immune system catches up and the virus is blocked. The antibodies block it. And then the disease ends.
+
+There is not one example, not one that I know of from studying viruses for over 20 years, that a virus causes a disease years after it is neutralized. That’s completely absurd. I mean, not only paradox, I think it’s truly absurd. There’s no logic behind it. It’s only trying to connect some thing that one likes to be the cause, like HIV, with something that happens 5 or 10 years later. There is absolutely nothing there to link the two events, except a hypothesis. And they have tried very hard. They still do when you put them on the spot. If you push them hard enough, they come out with co-factors. Then the next round would be name me a co-factor. Then you’d say, why does the co-factor heroin or AZT need HIV? It can do it just as well without it. Then the one co-factor is gone. You stay with the drugs. There’s nothing else there. 
+
+*Crossing the street, Peter waved goodbye and hollered, "KEEP YOUR T CELLS UP!"*
