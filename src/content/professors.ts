@@ -1,5 +1,5 @@
 import type { Professor } from '../types'
-import { abby } from './contributors'
+import { abby, yuval } from './contributors'
 // @ts-ignore suppressing this warning since the files are found and dev/build is unaffected
 import interviews from './interviews/*.md'
 
@@ -270,11 +270,100 @@ const thirdIssueProfessors: Professor[] = [
   },
 ]
 
+// ============================ fourth issue ============================
+
+const fourthIssueProfessors: Professor[] = [
+  {
+    name: 'Adriana Lleras-Muney',
+    tags: ['economics'],
+    slug: 'adriana-lleras-muney',
+    interview: {
+      title: 'The Health-Education Connection',
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"They were arguing that, in some sense, education can be seen as a health instrument, but that was very controversial. I decided to go after that question, whether there is any causal evidence."`,
+    }
+  },
+  {
+    name: 'James Gelvin',
+    tags: ['middle eastern history'],
+    slug: 'james-gelvin',
+    interview: {
+      title: 'Real Time History',
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"I can't seem to escape the Israel-Palestine conflict. Every time you think things can't get any worse, they do, and I dive in again."`,
+    }
+  },
+  {
+    name: 'Leonard Kleinrock',
+    tags: ['computer science'],
+    slug: 'leonard-kleinrock',
+    interview: {
+      title: '"This Thing Called the Internet"',
+      interviewers: [yuval],
+      date: '2012',
+      html: '',
+      quote: `"We were measuring the traffic statistics, and email suddenly took over the traffic of the network. I said, 'Wow. This isn't about machines. This is about people communicating!'"`,
+    }
+  },
+  {
+    name: 'Matthew Lieberman',
+    tags: ['social cognitive neuroscience'],
+    slug: 'matthew-lieberman',
+    interview: {
+      title: 'Leveraging the Social Brain',
+      interviewers: [abby, yuval],
+      date: '2012',
+      html: '',
+      quote: `"Early on, when I was going into neuroscience, people would often say, 'So now we know that gum chewing exists in the gum chewing center of the brain, and whatever other silly things you can just localize to some part of the brain. Who cares? So what? I am usually on the lookout for answers to that 'So what?'"`,
+    }
+  },
+  {
+    name: 'Aydogan Ozcan',
+    tags: ['engineering'],
+    slug: 'aydogan-ozcan',
+    interview: {
+      title: '',
+      interviewers: [abby, yuval],
+      date: '2012',
+      html: '',
+      quote: `"You can't wait for the super pathologists to come and save you, because there are not that many. You have to let them be as they may, poorly trained, and rely on smart algorithms that will make up for the lack of perfection."`,
+    },
+  },
+  {
+    name: 'Judea Pearl',
+    tags: ['computer science'],
+    slug: 'judea-pearl',
+    interview: {
+      title: '',
+      interviewers: [abby, yuval],
+      date: '2012',
+      html: '',
+      quote: `"Some people have fear of mathematics or going too deep into mathematics. They say, 'Oh, this is too abstract. A judge or jury will never listen to us!' So what?`,
+    }
+  },
+  {
+    name: 'Kal Raustiala',
+    tags: ['international policy'],
+    slug: 'kal-raustiala',
+    interview: {
+      title: 'Intellectual Property: Beyond Fairness',
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"Tweakers are the ones who take little steps forward on an idea and refine, improve it. And pioneers have the big ideas. The point is that most innovation is of the tweaking type, and to engage in that, you often need to engage in some form of copying."`,
+    }
+  }
+]
+
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug

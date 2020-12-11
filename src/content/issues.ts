@@ -1,5 +1,5 @@
 import type { Issue, ReadingListItem } from '../types'
-import { abby } from '../content/contributors'
+import { abby, yuval } from '../content/contributors'
 import { professorsByIssue } from '../content/professors'
 
 const readingList: ReadingListItem[] = [
@@ -59,4 +59,14 @@ const thirdIssue: Issue = {
   readingList: [],
 }
 
-export default [firstIssue, secondIssue, thirdIssue]
+const fourthIssue: Issue = {
+  title: 'UCLA',
+  date: '2012',
+  number: 4,
+  contributors: [abby, yuval],
+  professors: professorsByIssue[3],
+  intro: `<p class="italic">Specimen Magazine is not affiliated with UCLA.</p>`,
+  readingList: [],
+}
+
+export default [firstIssue, secondIssue, thirdIssue, fourthIssue]
