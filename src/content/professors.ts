@@ -193,11 +193,88 @@ const secondIssueProfessors: Professor[] = [
 //   },
 ]
 
+// ============================ third issue ============================
+
+const thirdIssueProfessors: Professor[] = [
+  {
+    name: 'Brian Bix',
+    tags: ['legal theory'],
+    slug: 'brian-bix',
+    interview: {
+      title: 'Legal Advice to Live By',
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"So you can make fun of the people who say, 'marriage is just the way it's always been,' or 'I looked it up in the dictionary.' That is sort of silly, but if you are just coming up with the definition of marriage yourself, there needs to be a thoughtfulness at a moral and policy level."`,
+    }
+  },
+  {
+    name: 'Amy Muse',
+    tags: ['literature', 'romantic drama'],
+    slug: 'amy-muse',
+    interview: {
+      title: "Great Precision is the Beauty",
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"Hmmm... beauty. Well, some of these plays are filled with people being horribly cruel to one another. What I'd say is that there is a great precision of language. This great precision is the beauty of it."`,
+    }
+  },
+  {
+    name: 'Sehoya Cotner',
+    tags: ['biology of sex'],
+    slug: 'sehoya-cotner',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"I think science communication is one of those things. It's a cultural tragedy right now. We suck at it, and as scientists, we are in this little bubble of hubris and facts. I think that hasn't helped us."`,
+    }
+  },
+  {
+    name: 'Kiarina Kordela',
+    tags: ['critical theory'],
+    slug: 'kiarina-kordela',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"They want us to assess writing in quantifiable terms, cleanly separating form from content, mechanics from style, and assigning points to each 'rubric'. You are Kafka. Do you pass the assessment?"`,
+    }
+  },
+  {
+    name: 'Matt McGue',
+    tags: ['behavioral genetics'],
+    slug: 'matt-mcgue',
+    interview: {
+      title: "Nature and Nurture",
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"You can see that adopted individuals will show greater similarity to their birth parents than to their adopted parents."`,
+    }
+  },
+  {
+    name: 'Amy Hilden',
+    tags: ['philosophy', "women's studies"],
+    slug: 'amy-hilden',
+    interview: {
+      title: "Detours in Philosophy",
+      interviewers: [abby],
+      date: '2012',
+      html: '',
+      quote: `"Tension is good. That's what we are supposed to do — take ideas, check them out with each other, revise, jettison some, give up some, strengthen others. That is what we are supposed to do, but I felt too vulnerable in that community."`,
+    }
+  },
+]
+
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug

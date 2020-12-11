@@ -45,8 +45,18 @@ const secondIssue: Issue = {
   number: 2,
   contributors: [abby],
   professors: professorsByIssue[1],
-  intro: `<p class="italic">Specimen Magazine is not affiliated with Stanford University and does not claim authorship for any of the views expressed herein. Read at your own risk.</p>`,
+  intro: `<p class="italic">Specimen Magazine is not affiliated with Stanford University.</p>`,
   readingList: [],
 }
 
-export default [firstIssue, secondIssue]
+const thirdIssue: Issue = {
+  title: 'Sex, Love, and Philosophy',
+  date: '2012',
+  number: 3,
+  contributors: [abby],
+  professors: professorsByIssue[2],
+  intro: `<p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
+  readingList: [],
+}
+
+export default [firstIssue, secondIssue, thirdIssue]

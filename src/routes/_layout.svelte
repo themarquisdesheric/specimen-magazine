@@ -22,7 +22,7 @@
 			</a>
 		</span>
 	</div>
-	<small>Specimen Magazine © 2011 - 2015</small>
+	<small class="block my-2">Specimen Magazine © 2011 - 2015</small>
 </footer>
 
 <style>
