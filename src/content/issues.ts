@@ -26,6 +26,23 @@ const readingList: ReadingListItem[] = [
     author: 'John Letiche',
     url: 'https://www.mqup.ca/crises-and-compassion-products-9780773538207.php',
   },
+  {
+    title: "Turing's Vision",
+    subtitle: 'The Birth of Computer Science',
+    author: 'Chris Bernhardt',
+    url: 'https://mitpress.mit.edu/books/turings-vision',
+  },
+  {
+    title: 'Alan Turing',
+    subtitle: 'The Enigma',
+    author: 'Andrew Hodges',
+    url: 'https://press.princeton.edu/books/paperback/9780691164724/alan-turing-the-enigma',
+  },
+  {
+    title: 'Neuromancer',
+    author: 'William Gibson',
+    url: 'https://www.penguinrandomhouse.com/books/293994/neuromancer-by-william-gibson/',
+  },
 ]
 
 const firstIssue: Issue = {
