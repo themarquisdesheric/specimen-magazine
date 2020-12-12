@@ -17,7 +17,7 @@
   :global(.prose) a,
   a {
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 300;
     white-space: nowrap;
     max-height: 1.625rem;
   }

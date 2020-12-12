@@ -13,7 +13,7 @@
 </script>
 
 <a href="/issues/{number}" rel="prefetch" class="issue-card w-full">
-  <div class="w-full border rounded text-sm font-light p-4">
+  <div class="w-full border rounded text-sm p-4">
     <header class="mb-3">
       <h2 class="flex justify-between text-xl">
         <span class="font-bold">{title}</span>

@@ -9,7 +9,7 @@
 <main class="relative flex justify-center mx-auto my-0 p-8">
 	<slot />
 </main>
-<footer class="text-center py-2 font-extralight">
+<footer class="text-center py-2 font-light">
 	<div class="text-center mt-8">
 		<span class="mr-4">
 			<a href="https://twitter.com/specimen_mag?lang=en" target="_blank" rel="noopener noreferrer">

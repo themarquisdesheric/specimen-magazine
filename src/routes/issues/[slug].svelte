@@ -19,9 +19,9 @@
 	<title>Issue №{number} | Specimen Magazine</title>
 </svelte:head>
 
-<div class="prose w-full font-light">
+<div class="prose w-full">
   <h1 class="pb-2">{title}</h1>
-  <div class="flex justify-between text-lg font-extralight">
+  <div class="flex justify-between text-lg font-light">
     <span>Issue №{number}</span>
     <span>{date}</span>
   </div>
@@ -41,10 +41,10 @@
   </div>
 
   <h2 class="pb-2">Reading List</h2>
-  <p class="font-extralight">Books discussed in this issue</p>
+  <p>Books discussed in this issue</p>
   <div class="flex flex-wrap justify-between">
     {#each readingList as book}
-      <section class="mb-2 sm:mb-4">
+      <section class="mb-4 sm:mb-6">
         <a href={book.url} target="_blank" rel="noopener noreferrer">
           <p class="font-sans">{book.title}</p>
         </a>
@@ -69,6 +69,7 @@
   section p {
     text-align: left;
     margin: 0;
+    min-width: 250px;
   }
 
   section p:last-of-type {
@@ -85,5 +86,11 @@
 
 	li a {
 		margin: 0;
-	}
+  }
+  
+  @media (min-width: 640px) {
+    section {
+      width: 50%;
+    }
+  }
 </style>

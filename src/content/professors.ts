@@ -51,7 +51,7 @@ const firstIssueProfessors: Professor[] = [
       interviewers: [abby],
       date: '2012',
       html: '',
-      quote: '',
+      quote: '"It’s an amazing story how a few people in the seventies, visionary engineers who designed the basic protocols of the internet, how they created this wonderful artifact. I wish everybody could see how incredibly simple, how common-sense the basic principles of the internet are – its basic code. How ingeniously democratic, in a simple, common-sense way. Did the clever people who came up with those simple principles in the sixties and the seventies, did they realize how subversive those principles, those codes, were? Did they know that they were really spreading the germs of a revolution? Did they know, or did it just happen?"',
     }
   },
   {

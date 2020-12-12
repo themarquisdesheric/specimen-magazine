@@ -15,7 +15,7 @@
 </svelte:head>
 
 <div class="max-width w-full">
-	<h1 class="text-lg font-light">Interviews</h1>
+	<h1 class="text-lg">Interviews</h1>
 	<div class="prose">
 		<div>
 			{#each issues as issue, index}

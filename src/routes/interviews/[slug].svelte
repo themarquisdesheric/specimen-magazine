@@ -50,7 +50,7 @@
 			/>
 		{/each}
 	</div>
-	<div>
+	<div class="article-content">
 		{@html html}
 	</div>
 </div>
@@ -74,15 +74,24 @@
 		font-family: 'Open Sans';
 	}
 
+	.article-content :global(p) {
+		font-weight: 400;
+		color: #000;
+	}
+
 	.prose :global(.interviewer) {
 		display: inline-block;
 		margin: 1.25rem 0;
 	}
 
-	:global(.highlight) {
-		font-weight: 700;
-		border-top: 1px solid rgb(229, 231, 235);
-		border-bottom: 1px solid rgb(229, 231, 235);
-		padding: 1.25rem 0;
+	.prose :global(.highlight) {
+		margin: 4rem auto;
+		padding: 1.25rem;
+		width: 75%;
+		border: 4px solid #000;
+		border-radius: 0;
+		font-weight: 600;
+		letter-spacing: .5px;
+		text-align: center;
 	}
 </style>
