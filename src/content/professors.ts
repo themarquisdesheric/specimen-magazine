@@ -210,7 +210,7 @@ const thirdIssueProfessors: Professor[] = [
   },
   {
     name: 'Amy Muse',
-    tags: ['literature', 'romantic drama'],
+    tags: ['romantic drama', 'literature'],
     slug: 'amy-muse',
     interview: {
       title: "Great Precision is the Beauty",
