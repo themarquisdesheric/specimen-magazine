@@ -34,7 +34,7 @@
 				</p>
 			{/if}
 		</div>
-		<p class="italic">{quote}</p>
+		<p class="italic">{@html quote}</p>
 		<div class="flex justify-center items-center">
 			<div class="border-b w-full mr-3" />
 			<p>{date}</p>

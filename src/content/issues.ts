@@ -103,4 +103,14 @@ const fourthIssue: Issue = {
   readingList: [],
 }
 
-export default [firstIssue, secondIssue, thirdIssue, fourthIssue]
+const fifthIssue: Issue = {
+  title: 'Professors, Interviews, and You',
+  date: '2012',
+  number: 5,
+  contributors: [abby, yuval],
+  professors: professorsByIssue[4],
+  intro: `<p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
+  readingList: [],
+}
+
+export default [firstIssue, secondIssue, thirdIssue, fourthIssue, fifthIssue]

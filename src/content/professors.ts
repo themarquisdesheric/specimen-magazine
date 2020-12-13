@@ -1,5 +1,5 @@
 import type { Professor } from '../types'
-import { abby, yuval } from './contributors'
+import { abby, yuval, peter, zainab, kevin, erica, katie } from './contributors'
 // @ts-ignore suppressing this warning since the files are found and dev/build is unaffected
 import interviews from './interviews/*.md'
 
@@ -359,11 +359,113 @@ const fourthIssueProfessors: Professor[] = [
   }
 ]
 
+// ============================ fifth issue ============================
+
+const fifthIssueProfessors: Professor[] = [
+  {
+    name: 'Andrew Jones',
+    tags: ['chines language', 'media studies'],
+    slug: 'andrew-jones',
+    interview: {
+      title: '',
+      interviewers: [peter],
+      date: '2013',
+      html: '',
+      quote: `"They said, 'Well, there's musical evolution. Western music is evolutionarily advanced, and Chinese music got evolutionarily stuck about a thousand years ago. Hence, we are a thousand years behind, hence we must jettison our entire musical culture, and modernize.' And to me, it's actually a very disturbing story to tell."`,
+    }
+  },
+  {
+    name: 'Esther Pasztory',
+    tags: ['anthropology and art'],
+    slug: 'esther-pasztory',
+    interview: {
+      title: '',
+      interviewers: [zainab],
+      date: '2013',
+      html: '',
+      quote: `"I like Michelangelo, but he has been idolized for many centuries, so he doesn't need me to idolize him anymore. So I don't need to find any treasures in the museum. In fact, by the time things are in a museum, I sort of lost interest. It's a part of me in a deep sort of way."`,
+    }
+  },
+  {
+    name: 'Chris Brooks',
+    tags: ['computer science', 'artificial intelligence'],
+    slug: 'chris-brooks',
+    interview: {
+      title: '',
+      interviewers: [yuval],
+      date: '2013',
+      html: '',
+      quote: `"They might meet someone who is 45 years old and has never used a mouse before. They've never had that opportunity. Our students don't often believe anyone like that exists, because it's so alien to their world. Then they sit down with someone who is maybe going through recovery for drug addiction or something like that. For whatever reason, they've been out of society for a long time, and they're just coming back in now and trying to figure out this whole Internet thing. And that really drives the point home."`,
+    }
+  },
+  {
+    name: 'Gayatri Chakravorty Spivak',
+    tags: ['post-colonialism'],
+    slug: 'gayatri-chakravorty-spivak',
+    interview: {
+      title: '',
+      interviewers: [zainab],
+      date: '2013',
+      html: '',
+      quote: `"Even with people who are not allowed to be touched by others (the 'untouchable' or 'Dalit' caste in India) - and certainly there is no greater disrespect — how do you teach even these groups not to be only interested in themselves?<br /><br />
+      I think that is where good cultural studies should go.`,
+    }
+  },
+  {
+    name: 'Tayopa Mogilner',
+    tags: ['cognitive science'],
+    slug: 'tayopa-mogilner',
+    interview: {
+      title: '',
+      interviewers: [kevin],
+      date: '2013',
+      html: '',
+      quote: `"A lot of people think we work like a tape recorder. It's not true. You don't just have a memory, a fine representation somewhere. That's just what it feels like to a lot of people, but we are actively thinking ahead. We are active predictors. There's a lot of work out there about how much of memory is like imagining and how much isn't."`,
+    }
+  },
+  {
+    name: 'David Ogawa',
+    tags: ['history of photography'],
+    slug: 'david-ogawa',
+    interview: {
+      title: '',
+      interviewers: [erica],
+      date: '2013',
+      html: '',
+      quote: `"To me, being an outsider, it's easy enough to say, 'Just change it.' Get on the board of whatever, do this, do that, because it's your culture, it's your climate. You can change it. And I realize that it must be harder for students who are in it to actually feel like they have that kind of power. There's always that mythology that culture is created by other people who have been here longer or who seem to be more popular or those who are part of these privileged groups, of which there are several."`,
+    }
+  },
+  {
+    name: 'Stephen Hinshaw',
+    tags: ['adolescent psychology'],
+    slug: 'stephen-hinshaw',
+    interview: {
+      title: '',
+      interviewers: [katie],
+      date: '2013',
+      html: '',
+      quote: `"To make a long story short, we collected the largest sample of girls with ADHD in the world and we've been following them up over time."`,
+    }
+  },
+  {
+    name: 'Valerie Barr',
+    tags: ['computer science'],
+    slug: 'valerie-barr',
+    interview: {
+      title: '',
+      interviewers: [erica],
+      date: '2013',
+      html: '',
+      quote: `"The role of technology in our lives is one we should be much more critical about, and people don't want to be."`,
+    }
+  },
+]
+
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug

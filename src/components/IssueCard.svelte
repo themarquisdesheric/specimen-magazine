@@ -23,7 +23,7 @@
     {#each professors as professor, index}
       <section class="py-1 flex justify-between items-center">
         <a href="/interviews/{professor.slug}" rel="prefetch">
-          <p>{professor.name}</p>
+          <p class="text-left">{professor.name}</p>
         </a>
         <Tag tag={professor.tags[0]} />
       </section>
