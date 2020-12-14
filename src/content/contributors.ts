@@ -34,3 +34,8 @@ export const katie: Contributor = {
   name: 'Katie Nolan',
   title: 'Contributor',
 }
+
+export const nadia: Contributor = {
+  name: 'Nadia Rosenberg',
+  title: 'Contributor',
+}

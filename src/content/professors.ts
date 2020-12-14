@@ -1,5 +1,5 @@
 import type { Professor } from '../types'
-import { abby, yuval, peter, zainab, kevin, erica, katie } from './contributors'
+import { abby, yuval, peter, zainab, kevin, erica, katie, nadia } from './contributors'
 // @ts-ignore suppressing this warning since the files are found and dev/build is unaffected
 import interviews from './interviews/*.md'
 
@@ -461,11 +461,77 @@ const fifthIssueProfessors: Professor[] = [
   },
 ]
 
+// ============================ sixth issue ============================
+
+const sixthIssueProfessors: Professor[] = [
+  {
+    name: 'Aubrey De Grey',
+    tags: ['biogerontologist'],
+    slug: 'aubrey-de-grey',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2013',
+      html: '',
+      quote: `"Essentially, the thing is that people have been taught what is a disease and what is not, and they don't like to think of the idea that you and I have got a disease, right? But you and I have got aging."`,
+    }
+  },
+  {
+    name: 'David Brauer',
+    tags: ['agronomy'],
+    slug: 'david-brauer',
+    interview: {
+      title: '',
+      interviewers: [kevin],
+      date: '2013',
+      html: '',
+      quote: `"If we could do the same with energy, create an energy supply that's relatively inexpensive, then we have this water issue whipped."`,
+    }
+  },
+  {
+    name: 'Claude Fischer',
+    tags: ['sociology'],
+    slug: 'claude-fischer',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2013',
+      html: '',
+      quote: `"There has got to be some reason for, let's say, the never-ending claim that family life is disintegrating, which of course goes back to time immemorial, or the eons-long arguments about the country and city. They resonate for a reason, so it's not enough to just debunk them. If there is a misunderstanding behind those perceptions, where do they come from?"`,
+    }
+  },
+  {
+    name: 'Barbara Tversky',
+    tags: ['psychology'],
+    slug: 'barbara-tversky',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2013',
+      html: '',
+      quote: `"So I have had this experience in conferences, where somebody from geology will come up to me and say, 'We are uniquely spatial among the scientists. That's why I want to talk to you.' And someone from chemistry will come and say the same thing, and someone in physics will do the same thing. And I am laughing inside. You're all spatial!"`,
+    }
+  },
+  {
+    name: 'Manuel Vargas',
+    tags: ['philosophy'],
+    slug: 'manuel-vargas',
+    interview: {
+      title: '',
+      interviewers: [nadia],
+      date: '2013',
+      html: '',
+      quote: `"They key, I think, is to acknowledge that we are part of the physical causal fabric of the world, but to also recognize that we are the part capable of acting with malicious intent.<br/>
+      That's the hook of praise and blame."`,
+    }
+  },
+]
+
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug
