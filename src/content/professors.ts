@@ -594,11 +594,88 @@ const seventhIssueProfessors: Professor[] = [
   },
 ]
 
+// ============================ eighth issue ============================
+
+const eighthIssueProfessors: Professor[] = [
+  {
+    name: 'Bernd Sturmfels',
+    tags: ['computer science', 'math', 'statistics'],
+    slug: 'bernd-sturmfels',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"I sort of waited. When will they find out that I'm not so good? After a couple of years, I realized they never found out. They didn't find out, and maybe the other people aren't so amazing either. So they still haven't found out yet, and I'm still here."`,
+    }
+  },
+  {
+    name: 'Randy Schekman',
+    tags: ['biology'],
+    slug: 'randy-schekman',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"My feeling is that it's not enough to complain or to use the Nobel Prize as a soap box to complain. It's more important to actually do something about it, so that's why I am spending most of my time creating an effective alternative venue that is not tainted in the way that the so-called luxury journals are tainted."`,
+    }
+  },
+  {
+    name: 'Nicolai Reshetikhin',
+    tags: ['mathematical physics', 'math'],
+    slug: 'nicolai-reshetikhin',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"In a sense, mathematics can be regarded as a natural science, because it is a reflection of nature in our minds..."`,
+    }
+  },
+  {
+    name: 'Eliot Quataert',
+    tags: ['astronomy', 'physics', 'theoretical astrophysics'],
+    slug: 'eliot-quataert',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"I think that astronomy and evolution are the two key components of understanding our origins. There is the origin of the universe, the planet, the sun. And then there are the origins of our species. They make a coherent story together."`,
+    }
+  },
+  {
+    name: 'Robion Kirby',
+    tags: ['math', 'topology'],
+    slug: 'robion-kirby',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"Figure out how you learn. Figure that out. If it isn't by listening to somebody, don't bother to go to class. Do it your way."`,
+    }
+  },
+  {
+    name: 'Umesh Vazirani',
+    tags: ['computer science', 'quantum computing'],
+    slug: 'umesh-vazirani',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"As classical beings, we are weak compared to the quantum devices. But you can get them into a wrist lock, and from then on, you can lead them on this dance. These minions, 2<sup>500</sup> of them, are dancing to your tune. It's a bit out there, right?"`,
+    }
+  },
+]
+
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors, ...seventhIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors, ...seventhIssueProfessors, ...eighthIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors, seventhIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors, seventhIssueProfessors, eighthIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug
