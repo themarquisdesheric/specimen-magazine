@@ -521,17 +521,84 @@ const sixthIssueProfessors: Professor[] = [
       interviewers: [nadia],
       date: '2013',
       html: '',
-      quote: `"They key, I think, is to acknowledge that we are part of the physical causal fabric of the world, but to also recognize that we are the part capable of acting with malicious intent.<br/>
+      quote: `"They key, I think, is to acknowledge that we are part of the physical causal fabric of the world, but to also recognize that we are the part capable of acting with malicious intent.
       That's the hook of praise and blame."`,
+    }
+  },
+]
+
+// ============================ seventh issue ============================
+
+const seventhIssueProfessors: Professor[] = [
+  {
+    name: 'Jack Glaser',
+    tags: ['psychology', 'criminal justice'],
+    slug: 'jack-glaser',
+    interview: {
+      title: '',
+      interviewers: [abby, yuval],
+      date: '2013',
+      html: '',
+      quote: `"Officers are making these judgments under high uncertainty, and we know from decades of social psychology that under high uncertainty you see a lot of biases influence people's decisions, and that causes errors. Stereotype-based judgment is a kind of error."`,
+    }
+  },
+  {
+    name: 'Wendy Brown',
+    tags: ['political theory'],
+    slug: 'wendy-brown',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2013',
+      html: '',
+      quote: `"For me, neoliberalism is most importantly a way of thinking about who we are and what we do as humans, and that way of thinking is so relentlessly economistic. It submits everything to markets at every turn."`,
+    }
+  },
+  {
+    name: 'Nir Eyal',
+    tags: ['behavior engineering', 'psychology'],
+    slug: 'nir-eyal',
+    interview: {
+      title: '',
+      interviewers: [yuval],
+      date: '2013',
+      html: '',
+      quote: `"So I started asking myself the central question of what creates habit-forming technology? What differentiates products that started out as toys, as cute little gimmicks, and then, within a few years time, become companies that are worth hundreds of millions of dollars, that touch hundreds of millions of lives? What are the patterns? So that's what I started studying, and I dove into it, asking and answering my own questions, and publishing what I was learning."`,
+    }
+  },
+  {
+    name: 'Andrew Guzman',
+    tags: ['international law'],
+    slug: 'andrew-guzman',
+    interview: {
+      title: '',
+      interviewers: [kevin],
+      date: '2013',
+      html: '',
+      quote: `"I think the planet is going to be fine at some new equilibrium.<br />
+      The question is, how are we going to do? How much suffering will we endure?<br />
+      Will we suffer enough that emissions will reduce as a result or will we get it under control ourselves?"`,
+    }
+  },
+  {
+    name: 'Michael Oborne',
+    tags: ['future studies'],
+    slug: 'michael-oborne',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2013',
+      html: '',
+      quote: `"Basically, strategic foresight has a watch on the entire globe, and you are looking at all the socio-economic developments throughout countries, looking for hot spots in the future, economic or social breakdowns, looking at options for how to deal with those kinds of futures."`,
     }
   },
 ]
 
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors, ...seventhIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors, seventhIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug

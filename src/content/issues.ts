@@ -138,4 +138,21 @@ const sixthIssue: Issue = {
   readingList: [],
 }
 
-export default [firstIssue, secondIssue, thirdIssue, fourthIssue, fifthIssue, sixthIssue]
+const seventhIssue: Issue = {
+  title: 'Blue Matters, Brown Linings',
+  date: '2013',
+  number: 7,
+  contributors: [abby, yuval],
+  professors: professorsByIssue[6],
+  intro: `Dear Reader,<br /><br />
+  We did not plan to feature 101 sad facts about the future of humanity, but let's face it, this issue is kind of a downer. Fortunately, it is also insightful and gripping, like a good murder mystery. Please know that the somber tone is not necessarily a reflection of the featured interview subjects, the general tone of their work, or any indication of how fun they are at a party. It may be a reflection of a collective sigh, as we all sense a shift from bad to worse — a shift in our fragile planet. social fabric, political system, and its healthcare websites. After the storm passes, Specimen will be looking for hopeful accounts to intrigue and inform you. For now, let's face these blue matters with brown linings and agree to do something more than watching our house burn.<br /><br />
+  Sincerely,<br />
+  Abby McLean<br />
+  Editor 
+  <hr />
+  Specimen is a quarterly magazine featuring in-depth interviews with university professors and other experts for a general audience. Specimen interviews are not embedded in written narratives. What you read is transcript material from real conversations and monologues-straight from the horse's mouth — because word choice matters. Specimen celebrates dorking out, geeking out, and American heroes that make sense to us.<br />
+  <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
+  readingList: [],
+}
+
+export default [firstIssue, secondIssue, thirdIssue, fourthIssue, fifthIssue, sixthIssue, seventhIssue]
