@@ -176,4 +176,22 @@ const eighthIssue: Issue = {
   readingList: [],
 }
 
-export default [firstIssue, secondIssue, thirdIssue, fourthIssue, fifthIssue, sixthIssue, seventhIssue, eighthIssue]
+const ninthIssue: Issue = {
+  title: 'Certified Orgasmic',
+  date: '2014',
+  number: 9,
+  contributors: [abby, yuval],
+  professors: professorsByIssue[8],
+  intro: `This issue is a brief survey of different perspectives on agriculture today. We started with some vague curiosity about the alternative farming movement and were quickly reminded that we know very little about mainstream farming practices. The quest to understand the bigger picture resulted in this collection of interviews.<br /><br />
+  Our coverage is an overrepresentation of subjects who are part of the “farm movement” in the Midwest — what many of us still know of as a quaint, feel-good, foodie, niche market — and an underrepresentation of subjects who are part of the system of larger, industrial farms, the means by which most of us subsist these days.<br /><br />
+  It is not our intention to frame the discussion as an either/or side-taking opportunity. You, dear reader, are encouraged to resist the urge and simply enjoy the fascinating and alarming foreignness of our food system — foreign like a chicken paw, like algal blooms, like sitting in a combine on Christmas Eve, like $.09/lb. pork, like buying lettuce from the Department of Defense.<br /><br /> 
+  These interviews are journeys through dark, sad places and green pastures, rain storms, droughts, sunbursts and orgasmics. You will clearly understand, and then wonder at, and then understand again, why anyone would ever want to be a farmer.<br /><br />
+  Thank you for reading.<br /><br />
+  Abby McLean
+  <hr />
+  Specimen is a periodic magazine featuring candid, in-depth interviews with professors and other expert types for everyday people. Specimen interviews are not embedded in written narratives. What you read is transcript material from real conversations and monologues — straight from the horse's mouth — because word choice matters. Specimen celebrates dorking out, geeking around, and American heroes that make sense to us.<br />
+  <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
+  readingList: [],
+}
+
+export default [firstIssue, secondIssue, thirdIssue, fourthIssue, fifthIssue, sixthIssue, seventhIssue, eighthIssue, ninthIssue]

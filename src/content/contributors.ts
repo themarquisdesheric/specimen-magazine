@@ -39,3 +39,8 @@ export const nadia: Contributor = {
   name: 'Nadia Rosenberg',
   title: 'Contributor',
 }
+
+export const sarah: Contributor = {
+  name: 'Sarah Jean',
+  title: 'Contributor',
+}

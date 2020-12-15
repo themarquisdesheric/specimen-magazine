@@ -1,5 +1,5 @@
 import type { Professor } from '../types'
-import { abby, yuval, peter, zainab, kevin, erica, katie, nadia } from './contributors'
+import { abby, yuval, peter, zainab, kevin, erica, katie, nadia, sarah } from './contributors'
 // @ts-ignore suppressing this warning since the files are found and dev/build is unaffected
 import interviews from './interviews/*.md'
 
@@ -671,11 +671,88 @@ const eighthIssueProfessors: Professor[] = [
   },
 ]
 
+// ============================ ninth issue ============================
+
+const ninthIssueProfessors: Professor[] = [
+  {
+    name: 'Alex Liebman',
+    tags: [`Stone's Throw Urban Farm`],
+    slug: 'alex-liebman',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"We figured out how to get a bunch of parcels around the city. I wouldn't say it's ideal, but we farm 14 vacant lots around the city. Previously vacant. They aren't vacant now."`,
+    }
+  },
+  {
+    name: 'Sandy Ludeman',
+    tags: ['SanMarbo Farms'],
+    slug: 'sandy-ludeman',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"You have to be an agronomist to put the crop in and keep it growing. You have to be a livestock specialist to keep your animals healthy. You have to be a grain marketer to understand what's going on with that. The only thing we can't do is be with a witch doctor to get it to rain."`,
+    }
+  },
+  {
+    name: 'Valentine Cadieux',
+    tags: ['University of Minnesota'],
+    slug: 'valentine-cadieux',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"We think we feed the world, but how are other people in the world already feeding each other?"`,
+    }
+  },
+  {
+    name: 'Bruce Bacon',
+    tags: ['Garden Farme'],
+    slug: 'bruce-bacon',
+    interview: {
+      title: '',
+      interviewers: [sarah],
+      date: '2014',
+      html: '',
+      quote: `"So I built the fucking thing from the ground up."`,
+    }
+  },
+  {
+    name: 'Dan Hoffman',
+    tags: ['Minnesota Agriculture', 'rural leadership'],
+    slug: 'dan-hoffman',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"I taught farm management for 23 years. I would go out to farms and help the farmers with their balance sheets, cash flows, tax planning, record keeping, enterprise analysis, to learn about cost per bushel, profit per acre, the cost per pound of milk produced, and the return per pound of milk, or per acre, or whole farm."`,
+    }
+  },
+  {
+    name: 'Claire Campbell',
+    tags: ['Permaculture Institute'],
+    slug: 'claire-campbell',
+    interview: {
+      title: '',
+      interviewers: [abby],
+      date: '2014',
+      html: '',
+      quote: `"It's much more of a mindset shift than some fun little trend that is going to go away: 'twenty somethings are urban farming.' It's not going to go away."`,
+    }
+  },
+]
+
 // ============================ all professors ============================
 
-const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors, ...seventhIssueProfessors, ...eighthIssueProfessors]
+const professors: Professor[] = [...firstIssueProfessors, ...secondIssueProfessors, ...thirdIssueProfessors, ...fourthIssueProfessors, ...fifthIssueProfessors, ...sixthIssueProfessors, ...seventhIssueProfessors, ...eighthIssueProfessors, ...ninthIssueProfessors]
 
-export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors, seventhIssueProfessors, eighthIssueProfessors]
+export const professorsByIssue: Professor[][] = [firstIssueProfessors, secondIssueProfessors, thirdIssueProfessors, fourthIssueProfessors, fifthIssueProfessors, sixthIssueProfessors, seventhIssueProfessors, eighthIssueProfessors, ninthIssueProfessors]
 
 export const professorsKeyedBySlug = professors.reduce((accumulator, professor) => {
   const professorSlug = professor.slug
