@@ -364,7 +364,7 @@ const fourthIssueProfessors: Professor[] = [
 const fifthIssueProfessors: Professor[] = [
   {
     name: 'Andrew Jones',
-    tags: ['chines language', 'media studies'],
+    tags: ['chinese language', 'media studies'],
     slug: 'andrew-jones',
     interview: {
       title: '',

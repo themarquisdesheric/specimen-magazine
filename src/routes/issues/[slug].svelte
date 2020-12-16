@@ -6,7 +6,6 @@
   export const preload = async ({ params }) => ({
     issue: issues[params.slug - 1]
   })
-  
 </script>
 
 <script lang="ts">
@@ -78,6 +77,12 @@
   
   .prose a section p {
     text-decoration: none;
+  }
+
+  .prose :global(hr) {
+    width: 3rem;
+    margin: 3em auto;
+    border-top-width: 4px;
   }
 
 	li {
