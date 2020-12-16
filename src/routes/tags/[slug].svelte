@@ -21,7 +21,7 @@
 </svelte:head>
 
 <div class="w-full">
-<h1 class="text-lg font-light">#{slug}</h1>
+<h1 class="text-lg font-medium">#{slug}</h1>
   <div class="prose">
     <ul>
       {#each matchingProfessors as professor}

@@ -13,6 +13,9 @@
 
 <nav class="fixed top-0 left-0 w-full z-10 bg-white">
 	<!-- mobile menu -->
+	{#if isMobileMenuOpen}
+		<div class="click-catcher" on:click={toggleMobileMenu} />
+	{/if}
 	<ul
 		class="mobile-menu text-center overflow-hidden font-extralight"
 		style="--maxHeight: {maxHeight};"
@@ -56,6 +59,15 @@
 	div :global(a) {
 		text-decoration: none;
 		display: block;
+	}
+
+	.click-catcher {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
 	}
 
 	.mobile-menu {

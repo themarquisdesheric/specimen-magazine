@@ -15,7 +15,7 @@
 </svelte:head>
 
 <div class="w-full">
-  <h1 class="text-lg font-light pb-2">Tags</h1>
+  <h1 class="text-lg pb-2">Tags</h1>
   
   <div class="flex flex-wrap">
     {#each uniqueTags as tag, index}
