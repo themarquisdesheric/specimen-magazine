@@ -18,7 +18,7 @@ So there are problems that you would have liked a computer to solve but they can
 
 Before that, science was progressing linearly. At the beginning of the 20th century, David Hilbert was saying that there are no unsolvable problems, all problems will be solved. 
 
-<p class="highlight">Maybe you have to talk to someone more clever than you.</p>
+Maybe you have to talk to someone more clever than you.
 
 Maybe you need to wait a couple of generations, but they will be solved. It was the 20th century that brought us things that cannot be done, ok? There can be no complete system that proves all mathematical theorems, that was Gödel’s theorem. Or you cannot measure both the position and the velocity of things. Or you cannot run as fast as you want, ok? Or there are simple to state problems that are unsolvable. You cannot solve them mechanically.
 

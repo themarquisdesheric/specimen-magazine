@@ -32,7 +32,7 @@ const secondIssue: Issue = {
 }
 
 const thirdIssue: Issue = {
-  title: 'Sex, Love, and Philosophy',
+  title: 'Twin Cities',
   date: '2012',
   number: 3,
   contributors: [abby],
@@ -64,7 +64,7 @@ const fourthIssue: Issue = {
 }
 
 const fifthIssue: Issue = {
-  title: 'Professors, Interviews, and You',
+  title: 'Interviews & You',
   date: '2013',
   number: 5,
   contributors: [abby, yuval],
@@ -97,7 +97,7 @@ const sixthIssue: Issue = {
 }
 
 const seventhIssue: Issue = {
-  title: 'Blue Matters, Brown Linings',
+  title: 'Debunking America',
   date: '2013',
   number: 7,
   contributors: [abby, yuval],

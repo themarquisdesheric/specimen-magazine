@@ -466,7 +466,7 @@ const fifthIssueProfessors: Professor[] = [
 const sixthIssueProfessors: Professor[] = [
   {
     name: 'Aubrey De Grey',
-    tags: ['biogerontologist'],
+    tags: ['biogerontology'],
     slug: 'aubrey-de-grey',
     interview: {
       title: '',
