@@ -47,7 +47,7 @@ const thirdIssue: Issue = {
   <hr />
   Specimen is a quarterly magazine featuring candid, in-depth interviews with professors from different institutions around the nation, bringing the best of academic thinking into the realm of public consciousness. There's an unfortunate divide between academics in their ivory towers and the inquisitive public, and we aim to bridge that gap, distilling hundreds of pages of interview material down to one compelling and understandable issue. Why interviews? Interviews allow you to hear directly from the experts that live and breathe research, retaining their choice of words and their wonderful digressions. We believe that truth is, as they say, stranger (and more sensational) than fiction. Nowhere is truth more scrutinized, hotly debated, celebrated, more strange and wonderful than inside the mind of a fine specimen.<br />
   <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
-  readingList: [],
+  readingList: readingLists[2],
 }
 
 const fourthIssue: Issue = {
