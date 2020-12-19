@@ -58,9 +58,7 @@ But, how could HIV cause a fatal disease? They never answered that question. The
 
 Yet there was a very strong alternative explanation, which they don't want to hear about, namely recreational drugs. In the ‘70s and ‘80s, everybody was on drugs. It's a lifestyle, but they don't want to say it.
 
-<p class="highlight">
-  A drug lifestyle is politically incorrect.
-</p>
+<p class="highlight">A drug lifestyle is politically incorrect.</p>
 
 Nobody should be blamed. Viruses you can't blame, that's like blaming God, you know, but lifestyle or sexual persuasions is another matter – you're homophobe, or you're against a minority, against blacks, Africans, God knows what. Viruses are politically correct, so we can deal with them.
 
