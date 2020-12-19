@@ -32,13 +32,13 @@ const secondIssue: Issue = {
 }
 
 const thirdIssue: Issue = {
-  title: 'Twin Cities',
+  title: 'Sex, Love, and Philosophy',
   date: '2012',
   number: 3,
   contributors: [abby],
   professors: professorsByIssue[2],
   intro: `In this issue, we set out to survey professors in the Twin Cities (St. Paul and Minneapolis), 
-  searching for a group of professional thinkers who spend their days looking closely at the tantalizing questions that interest us. Should we be surprised to find that the psychologist is thinking about biology, the biologist is thinking about law, the legal theorist is thinking about love, the Romantic drama scholar is thinking about philosophy, and everyone seems to be thinking about sex? Across a range of disciplines, we found one big conversation. Specimen is asking the tough (and sometimes stupid) questions and getting not so stupid answers, bringing the debate to you so that you can connect the dots. Our featured legal theorist, Brian Bix, 
+  searching for a group of professional thinkers who spend their days looking closely at the tantalizing questions that interest us. Should we be surprised to find that the psychologist is thinking about biology, the biologist is thinking about law, the legal theorist is thinking about love, the Romantic drama scholar is thinking about philosophy, and everyone seems to be thinking about sex? Across a range of disciplines, we found one big conversation. Specimen is asking the tough (and sometimes stupid) questions and getting not so stupid answers, bringing the debate to you so that you can connect the dots. Our featured legal theorist, <a href="/interviews/brian-bix">Brian Bix</a>, 
   captures the philosophical grappling that characterizes this issue: <br /><br />
   <strong>Dr. Bix:</strong> All that there is, is thinking deeply about the hard questions, and there are arguments to offer, and people do persuade each other over time, but whether you are changing your mind in the direction of truth or error, no one can be entirely sure.<br /><br />
   <em>Is that frustrating for you?</em><br /><br />
@@ -64,7 +64,7 @@ const fourthIssue: Issue = {
 }
 
 const fifthIssue: Issue = {
-  title: 'Interviews & You',
+  title: 'Art and Culture',
   date: '2013',
   number: 5,
   contributors: [abby, yuval],
@@ -83,7 +83,8 @@ const sixthIssue: Issue = {
   number: 6,
   contributors: [abby, yuval],
   professors: professorsByIssue[5],
-  intro: `In this issue of Specimen, we give new experts a platform to debunk “silly blather" (Claude Fischer), "tremendous misconceptions" (David Brauer), "confusions" (Manuel Vargas), “systematic errors" (Barbara Tversky), and downright "bullshit" (Aubrey De Grey). We are glad to be publishing our longest interview yet with veteran Stanford psychologist Barbara Tversky. She meanders through decades of cool studies and hot topics. A special thanks to superstar daredevil biogerontologist Aubrey De Grey. We support you! Like many of us, these experts have been thinking about American patriotism, freedom of information, aging, upward mobility, and ecological downward spirals.<br /><br />
+  intro: `In this issue of Specimen, we give new experts a platform to debunk “silly blather" (<a href="/interviews/claude-fischer">Claude Fischer</a>), "tremendous misconceptions" (<a href="/interviews/david-brauer">David Brauer</a>), "confusions" (<a href="/interviews/manuel-vargas">Manuel Vargas</a>), “systematic errors" (<a href="/interviews/barbara-tversky">Barbara Tversky</a>), and downright "bullshit" (<a href="/interviews/aubrey-de-grey">Aubrey De Grey</a>).<br /><br />
+  We are glad to be publishing our longest interview yet with veteran Stanford psychologist Barbara Tversky. She meanders through decades of cool studies and hot topics. A special thanks to superstar daredevil biogerontologist Aubrey De Grey. We support you! Like many of us, these experts have been thinking about American patriotism, freedom of information, aging, upward mobility, and ecological downward spirals.<br /><br />
   Finally, from here on out, Specimen will be showcasing interviews with various experts, including but not limited to university professors.<br /><br />
   Thank you for joining the conversation.<br /><br />
   Sincerely,<br />
@@ -119,10 +120,10 @@ const eighthIssue: Issue = {
   number: 8,
   contributors: [abby, yuval],
   professors: professorsByIssue[7],
-  intro: `We know them as computer scientists, physicists, astronomers, and engineers, but math is their game. In this issue, mathematical physicist Nicolai Reshetikhin dwells on the age old question, <em>what is math anyway?</em> Is it just a construction of our minds or did we discover these patterns in nature, already perfect and orderly? Is math more like "reading the book of life" (Bernd Sturmfels) or more like writing it?<br /><br />
-  Computer scientist Umesh Vazirani describes the <em>computational lens</em>, a mathematical way of unlocking the secrets of nature, how we co-evolved with our math machines over just a few generations, and how quantum computing introduces complexity on a scale that we cannot fathom. Theoretical astrophysicist Eliot Quataert explains how simplifying the cosmos down to workable problems (numbers) is a tricky art, and "if you do it wrong, you will throw away the essential bit of the problem that is needed to understand the observations."<br /><br />
-  There is also important concern about the impulse to quantify, and measure, and elevate data over other values. Biologist and 2013 Nobel laureate Randy Schekman explains how the number of citations generated by a paper in an academic journal, its “impact factor," has been elevated to the gold standard of worth in the sciences and how damaging that turn to flashy headlines has been. He is heading up a new journal to restore integrity to science publishing.<br /><br />
-  The interviews also touch on the personal choice to pursue math and science in the first place. Why is math still so dominated by white guys when it's supposed to be the ultimate meritocracy? As Rob Kirby puts it, when you've got math skills, “there is no way to take you down.” If you think you know where you stand on affirmative action, dare to read on.<br /><br />
+  intro: `We know them as computer scientists, physicists, astronomers, and engineers, but math is their game. In this issue, mathematical physicist <a href="/interviews/nicolai-reshetikhin">Nicolai Reshetikhin</a> dwells on the age old question, <em>what is math anyway?</em> Is it just a construction of our minds or did we discover these patterns in nature, already perfect and orderly? Is math more like "reading the book of life" (<a href="/interviews/bernd-sturmfels">Bernd Sturmfels</a>) or more like writing it?<br /><br />
+  Computer scientist <a href="/interviews/umesh-vazirani">Umesh Vazirani</a> describes the <em>computational lens</em>, a mathematical way of unlocking the secrets of nature, how we co-evolved with our math machines over just a few generations, and how quantum computing introduces complexity on a scale that we cannot fathom. Theoretical astrophysicist <a href="/interviews/eliot-quataert">Eliot Quataert</a> explains how simplifying the cosmos down to workable problems (numbers) is a tricky art, and "if you do it wrong, you will throw away the essential bit of the problem that is needed to understand the observations."<br /><br />
+  There is also important concern about the impulse to quantify, and measure, and elevate data over other values. Biologist and 2013 Nobel laureate <a href="/interviews/randy-schekman">Randy Schekman</a> explains how the number of citations generated by a paper in an academic journal, its “impact factor," has been elevated to the gold standard of worth in the sciences and how damaging that turn to flashy headlines has been. He is heading up a new journal to restore integrity to science publishing.<br /><br />
+  The interviews also touch on the personal choice to pursue math and science in the first place. Why is math still so dominated by white guys when it's supposed to be the ultimate meritocracy? As <a href="/interviews/robion-kirby">Rob Kirby</a> puts it, when you've got math skills, “there is no way to take you down.” If you think you know where you stand on affirmative action, dare to read on.<br /><br />
   The subtitle of this issue could be “the time I decided to become a mathematician." It is a familiar story about how hard I fall for the subject matter in the latest issue. I had written off math so long ago, like maybe you did, dear reader, but this issue left me genuinely conflicted: “where is the time for reporting when there is so much math to be done?!"<br /><br />
   I am now convinced that line has been said all along about other work we cover in Specimen. I only hope that the magical feeling of discovery is sprinkled onto the pages of these interviews and that this amateur coverage inspires more lasting, substantial work and its wider appreciation.<br /><br />
   Stay tuned for another colorful and politically-charged issue 9, featuring interviews with Heartland farmers of different backgrounds, political persuasions, and tanlines. Predictably, I will fall in love with farming and decide to be a farmer.<br /><br />
