@@ -60,7 +60,7 @@ const fourthIssue: Issue = {
   <hr />
   Specimen is a quarterly magazine that features interviews with university professors for a popular audience. Hundreds of pages of first-hand accounts are distilled down to just the good stuff. Specimen interviews are not embedded in a written narrative. What you read is straight from the horse's mouth. We include all the great tangents about the frustrations and triumphs of charting a career path in the academic world, the inner workings of institutions, the peculiarities of different disciplines, and the future of higher education.<br />
   <p class="italic">Specimen Magazine is not affiliated with UCLA.</p>`,
-  readingList: [],
+  readingList: readingLists[3],
 }
 
 const fifthIssue: Issue = {

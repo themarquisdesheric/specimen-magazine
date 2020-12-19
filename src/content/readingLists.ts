@@ -111,6 +111,86 @@ const thirdList: ReadingListItem[] = [
   },
 ]
 
-const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList]
+const fourthList: ReadingListItem[] = [
+  {
+    title: 'The Future of the Wireless Art',
+    subtitle: 'In Wireless Telegraphy and Telephony',
+    author: 'Nikola Tesla',
+    url: 'https://teslauniverse.com/nikola-tesla/articles/future-wireless-art',
+  },
+  {
+    title: 'Why Women Still Can’t Have It All',
+    author: 'Anne-Marie Slaughter',
+    url: 'https://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/',
+  },
+  {
+    title: 'Social',
+    subtitle: 'Why Our Brains Are Wired to Connect',
+    author: 'Matthew Lieberman',
+    url: 'https://www.penguinrandomhouse.com/books/212681/social-by-matthew-d-lieberman/',
+  },
+  {
+    title: 'Minority Report',
+    subtitle: 'And Other Classic Stories',
+    author: 'Philip K. Dick',
+    url: 'https://www.kensingtonbooks.com/9780806537955/the-minority-report-and-other-classic-stories-by-philip-k-dick/',
+  },
+  {
+    title: 'The Knockoff Economy',
+    subtitle: 'How Imitation Sparks Innovation',
+    author: 'Kal Raustiala and Christopher Sprigman',
+    url: 'https://global.oup.com/academic/product/the-knockoff-economy-9780195399783?cc=us&lang=en&',
+  },
+  {
+    title: 'The Advancement of Learning',
+    author: 'Francis Bacon',
+    url: 'https://www.penguinrandomhouse.com/books/7013/the-advancement-of-learning-by-francis-bacon/',
+  },
+  {
+    title: 'The Arab Uprisings',
+    subtitle: 'What Everyone Needs to Know',
+    author: 'James L. Gelvin',
+    url: 'https://global.oup.com/academic/product/the-arab-uprisings-9780190222758?cc=us&lang=en&',
+  },
+  {
+    title: 'Why Syria Is Unlikely to be Next',
+    subtitle: '(For Now)',
+    author: 'Bassam Haddad',
+    url: 'https://carnegieendowment.org/sada/42936',
+  },
+  {
+    title: 'The Mathematical Theory of Communication',
+    author: 'Claude E. Shannon',
+    url: 'https://www.press.uillinois.edu/books/catalog/67qhn3ym9780252725463.html',
+  },
+  {
+    title: 'Creating a Mathematical Theory of Computer Networks',
+    author: 'Leonard Kleinrock',
+    url: 'https://www.researchgate.net/publication/220244226_Creating_a_Mathematical_Theory_of_Computer_Networks',
+  },
+  {
+    title: 'The Glass Bead Game',
+    author: 'Hermann Hesse',
+    url: 'https://www.penguin.com.au/books/the-glass-bead-game-9780099283621',
+  },
+  {
+    title: 'Tubes',
+    subtitle: 'A Journey to the Center of the Internet',
+    author: 'Andrew Blum',
+    url: 'https://www.harpercollins.com/products/tubes-andrew-blum?variant=32206301003810',
+  },
+  {
+    title: 'Toward an interactive model of reading',
+    author: 'David E. Rumelhart',
+    url: 'https://www.semanticscholar.org/paper/Toward-an-interactive-model-of-reading.-Rumelhart/5828f6e9baf5727e37968a43957e6b9405e6887a',
+  },
+  {
+    title: "Stanford Researchers Discover the 'Anternet'",
+    author: 'Bjorn Carey',
+    url: 'https://news.stanford.edu/pr/2012/pr-ants-mimic-internet-082312.html',
+  },
+]
+
+const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList]
 
 export default readingLists
