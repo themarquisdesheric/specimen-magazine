@@ -40,7 +40,7 @@
   </div>
 
   <h2 class="pb-2">Reading List</h2>
-  <p>Books discussed in this issue</p>
+  <p>Texts discussed in this issue</p>
   <div class="flex flex-wrap justify-between">
     {#each readingList as book}
       <section class="mb-4 sm:mb-6">

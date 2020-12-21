@@ -66,7 +66,7 @@
 	}
 
 	header div p.italic {
-		font-family: gentium, serif;
+		font-family: serif;
 	}
 
 	header .uppercase,
@@ -88,7 +88,7 @@
 		margin: 4rem auto;
 		padding: 1.25rem;
 		width: 75%;
-		border: 4px solid #000;
+		border: 3px solid #000;
 		border-radius: 0;
 		font-weight: 600;
 		letter-spacing: .5px;

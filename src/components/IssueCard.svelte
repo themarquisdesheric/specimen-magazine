@@ -47,6 +47,12 @@
     height: var(--headerWidth);
   }
 
+  h2,
+  header span {
+    /* fluid font magic https://css-tricks.com/snippets/css/fluid-typography/ */
+    font-size: calc(1.25rem + 6 * ((100vw - 320px) / 90));
+  }
+
   h2 {
     bottom: .5em;
     left: .5em;
@@ -56,19 +62,18 @@
     top: .5em;
     right: .5em;
   }
-
-  /* fluid font magic https://css-tricks.com/snippets/css/fluid-typography/ */
-  @media (min-width: 320px) {
-    h2,
-    header span {
-      font-size: calc(1.25rem + 6 * ((100vw - 320px) / 90));
-    }
-  }
-
   @media (min-width: 600px) {
     h2,
     header span {
       font-size: 1.25rem;
+    }
+
+    h2 {
+      left: .75em;
+    }
+
+    header span {
+      right: .75em;
     }
 
     .issue-card {
