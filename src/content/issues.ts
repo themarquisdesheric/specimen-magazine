@@ -94,7 +94,7 @@ const sixthIssue: Issue = {
   Specimen is a quarterly magazine featuring candid, in-depth interviews with experts for a popular audience, with a focus on university research. We distill hundreds of pages of interview material, representing hundreds of years of experience, down to one compelling and understandable issue. Specimen interviews are not embedded in written narratives. They are first-person accounts, because word choice matters.<br /><br />
   Specimen was born out of a disappointment with journalism that oversimplifies complex research, the broken political system that it relies on, a celebrity culture that elevates fluff over substance, and gripping academic research that is packaged as humorless, visually dead, and jargon-laden. Specimen celebrates geeking out, dorking around, and the kind of American heroes that make sense to us.
   <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
-  readingList: [],
+  readingList: readingLists[5],
 }
 
 const seventhIssue: Issue = {

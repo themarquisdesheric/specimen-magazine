@@ -268,6 +268,70 @@ const fifthList: ReadingListItem[] = [
   },
 ]
 
-const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList]
+const sixthList: ReadingListItem[] = [
+  {
+    title: 'Life',
+    subtitle: "A User's Manual",
+    author: 'Georges Perec',
+    url: 'https://www.penguin.co.uk/books/102/1028585/life/9780099449256.html',
+  },
+  {
+    title: 'Understanding Comics',
+    author: 'Scott McCloud',
+    url: 'https://www.harpercollins.com/products/understanding-comics-scott-mccloud?variant=32122752565282',
+  },
+  {
+    title: 'The Mind of a Mnemonist',
+    subtitle: 'A Little Book about a Vast Memory',
+    author: 'A.R. Luria',
+    url: 'https://www.hup.harvard.edu/catalog.php?isbn=9780674576223',
+  },
+  {
+    title: 'Microbe Hunters',
+    author: 'Paul de Kruif',
+    url: 'https://www.biolchem.ucla.edu/library/microbe-hunters/',
+  },
+  {
+    title: 'Building Better Beings',
+    subtitle: 'A Theory of Moral Responsibility',
+    author: 'Manuel Vargas',
+    url: 'https://global.oup.com/academic/product/building-better-beings-9780199697540?cc=us&lang=en&',
+  },
+  {
+    title: 'Ending Aging',
+    subtitle: 'The Rejuvenation Breakthroughs That Could Reverse Human Aging in Our Lifetime',
+    author: 'Aubrey de Grey and Michael Rae',
+    url: 'https://us.macmillan.com/books/9780312367077',
+  },
+  {
+    title: 'The Mitochondrial Free Radical Theory of Aging',
+    author: 'Aubrey de Grey',
+    url: 'https://books.google.com/books/about/The_Mitochondrial_Free_Radical_Theory_of.html?id=peEGAAAACAAJ',
+  },
+  {
+    title: 'Tractatus Logico-Philosophicus',
+    author: 'Ludwig Wittgenstein',
+    url: 'https://broadviewpress.com/product/tractatus-logico-philosophicus/#tab-description',
+  },
+  {
+    title: 'Made in America',
+    subtitle: 'A Social History of American Culture and Character',
+    author: 'Claude S. Fischer',
+    url: 'https://academic.oup.com/jsh/article-abstract/45/2/515/1238922?redirectedFrom=fulltext',
+  },
+  {
+    title: 'Is Facebook Making Us Lonely?',
+    author: 'Stephen Marche',
+    url: 'https://www.theatlantic.com/magazine/archive/2012/05/is-facebook-making-us-lonely/308930/',
+  },
+  {
+    title: 'Cadillac Desert',
+    subtitle: 'The American West and Its Disappearing Water',
+    author: 'Marc Reisner',
+    url: 'https://www.penguinrandomhouse.com/books/323685/cadillac-desert-by-marc-reisner/',
+  },
+]
+
+const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList, sixthList]
 
 export default readingLists

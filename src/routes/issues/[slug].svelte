@@ -95,7 +95,7 @@
   
   @media (min-width: 640px) {
     section {
-      width: 50%;
+      width: calc(50% - 1rem);
     }
   }
 </style>
