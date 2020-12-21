@@ -11,13 +11,14 @@
     professors,
   } = issue
   const MAX_PROFESSOR_LENGTH = 5
+  const colors = ['rgb(23, 19, 100)', 'rgb(236, 175, 148)', 'rgb(251, 112, 125)', 'rgb(193, 14, 27)', 'rgb(206, 203, 244)', 'rgb(48, 121, 80)', 'rgb(240, 113, 21)', 'rgb(225, 172, 87)', 'rgb(34, 85, 77)']
   let headerWidth
 </script>
 
 <a href="/issues/{number}" rel="prefetch" class="issue-card w-full border rounded text-sm p-4 mb-4">
   <header
     bind:clientWidth={headerWidth}
-    style="--headerWidth: {headerWidth}px"
+    style="--headerWidth: {headerWidth}px; background-color: {colors[number - 1]}"
     class="relative mb-4 text-white"
   >
     <h2 class="absolute flex justify-between font-bold text-xl">{title}</h2>
@@ -43,7 +44,6 @@
 
 <style>
   header {
-    background-color: #000;
     height: var(--headerWidth);
   }
 
@@ -78,6 +78,12 @@
 
     .issue-card {
       width: calc(50% - .5rem);
+    }
+  }
+
+  @media (min-width: 850px) {
+    .issue-card {
+      width: calc(33% - .5rem);
     }
   }
 </style>

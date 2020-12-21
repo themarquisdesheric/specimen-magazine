@@ -7,7 +7,7 @@
 <a
   href="/tags/{tag}"
   rel="prefetch"
-  class="text-xs border rounded p-1 bg-gray-50 {className}"
+  class="text-xs border rounded p-1 bg-gray-50 {className} truncate"
   class:mr-2={!lastOrOnlyTag}
 >
   {tag}

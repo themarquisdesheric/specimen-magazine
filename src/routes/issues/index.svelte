@@ -7,7 +7,7 @@
 	<title>Issues | Specimen Magazine</title>
 </svelte:head>
 
-<div class="max-width w-full">
+<div class="w-full">
   <h1 class="text-lg pb-2">Issues</h1>
   
   <div class="flex flex-wrap justify-between">

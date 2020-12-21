@@ -18,7 +18,7 @@
 	<title>{name} | Specimen Magazine</title>
 </svelte:head>
 
-<div class="prose max-width">
+<div class="prose">
 	<header>
 		<div class="text-center">
 			<h1 class="uppercase">{name}</h1>

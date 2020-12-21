@@ -6,7 +6,7 @@
 </script>
 
 <Nav {segment} />
-<main class="relative flex justify-center mx-auto my-0 p-8">
+<main class="max-width relative flex mx-auto my-0 py-8">
 	<slot />
 </main>
 <footer class="text-center py-2 font-light">
@@ -27,10 +27,10 @@
 
 <style>
 	main {
+		width: calc(100% - 4rem);
 		margin-top: 57px;
 		/* 100vh - header - footer */
 		min-height: calc(100vh - 56px - 110px);
-		max-width: 56em;
 		background-color: white;
 		box-sizing: border-box;
 	}

@@ -20,7 +20,7 @@
 	<title>Tags | Specimen Magazine</title>
 </svelte:head>
 
-<div class="max-width w-full">
+<div class="w-full">
 <h1 class="text-lg font-medium">#{slug}</h1>
   <div class="prose">
     <ul>

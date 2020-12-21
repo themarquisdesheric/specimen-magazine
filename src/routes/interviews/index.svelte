@@ -14,7 +14,7 @@
 	<title>Interviews | Specimen Magazine</title>
 </svelte:head>
 
-<div class="max-width w-full">
+<div class="w-full">
 	<h1 class="text-lg">Interviews</h1>
 	<div class="prose">
 		<div>

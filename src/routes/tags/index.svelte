@@ -14,7 +14,7 @@
 	<title>Tags | Specimen Magazine</title>
 </svelte:head>
 
-<div class="max-width w-full">
+<div class="w-full">
   <h1 class="text-lg pb-2">Tags</h1>
   
   <div class="flex flex-wrap">
