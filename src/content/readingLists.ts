@@ -191,6 +191,83 @@ const fourthList: ReadingListItem[] = [
   },
 ]
 
-const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList]
+const fifthList: ReadingListItem[] = [
+  {
+    title: 'The Story of the Stone',
+    author: 'Cao Xueqin',
+    url: 'https://www.penguinrandomhouse.com/books/268049/the-story-of-the-stone-volume-i-by-cao-xueqin-translated-with-an-introduction-by-david-hawkes/',
+  },
+  {
+    title: 'Phantoms in the Brain',
+    subtitle: 'Probing the Mysteries of the Human Mind',
+    author: 'V S. Ramachandran and Sandra Blakeslee',
+    url: 'https://www.harpercollins.com/products/phantoms-in-the-brain-v-s-ramachandran?variant=32130994110498',
+  },
+  {
+    title: 'The Mark of Shame',
+    subtitle: 'Stigma of Mental Illness and an Agenda for Change',
+    author: 'Stephen P. Hinshaw',
+    url: 'http://stephenhinshawauthor.com/books/the-mark-of-shame/',
+  },
+  {
+    title: 'The Triple Bind',
+    subtitle: 'Saving Our Teenage Girls from Today’s Pressures',
+    author: 'Stephen P. Hinshaw and Rachel Kranz',
+    url: 'https://www.penguinrandomhouse.com/books/80356/the-triple-bind-by-stephen-hinshaw-phd-with-rachel-kranz/',
+  },
+  {
+    title: 'The Years of Silence Are Past',
+    subtitle: "My Father's Life with Bipolar Disorder",
+    author: 'Stephen P. Hinshaw',
+    url: "https://www.researchgate.net/publication/268261955_The_Years_of_Silence_Are_Past_My_Father's_Life_with_Bipolar_Disorder",
+  },
+  {
+    title: 'Yellow Music',
+    subtitle: 'Media Culture and Colonial Modernity in the Chinese Jazz Age',
+    author: 'Andrew F. Jones',
+    url: 'https://www.dukeupress.edu/yellow-music',
+  },
+  {
+    title: 'Like a Knife',
+    subtitle: 'Ideology and Genre in Contemporary Chinese Popular Music',
+    author: 'Andrew F. Jones',
+    url: 'https://www.cornellpress.cornell.edu/book/9780939657575/like-a-knife/#bookTabs=1',
+  },
+  {
+    title: 'Inka Cubism',
+    subtitle: 'Reflections on Andean Art',
+    author: 'Esther Pasztory',
+    url: 'http://www.columbia.edu/~ep9/Inka-Cubism.pdf',
+  },
+  {
+    title: 'Aliens and Fakes',
+    subtitle: 'Popular Theories About the Origins of Ancient Americans',
+    author: 'Esther Pasztory',
+    url: 'https://polarbearandco.com/aliens-and-fakes-popular-theories-about-the-origins-of-ancient-americans/',
+  },
+  {
+    title: 'Can the Subaltern Speak?',
+    subtitle: 'Reflections on the History of an Idea',
+    author: 'Gayatri Chakravorty Spivak',
+    url: 'https://cup.columbia.edu/book/can-the-subaltern-speak/9780231143851',
+  },
+  {
+    title: 'Death of a Discipline',
+    author: 'Gayatri Chakravorty Spivak',
+    url: 'https://cup.columbia.edu/book/death-of-a-discipline/9780231129459',
+  },
+  {
+    title: 'The Politics of Friendship',
+    author: 'Jacques Derrida',
+    url: 'https://www.penguinrandomhouse.com/books/232810/the-politics-of-friendship-by-jacques-derrida/',
+  },
+  {
+    title: 'Orientalism',
+    author: 'Edward W. Said',
+    url: 'https://www.penguinrandomhouse.com/books/159783/orientalism-by-edward-w-said/',
+  },
+]
+
+const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList]
 
 export default readingLists

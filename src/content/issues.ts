@@ -28,11 +28,11 @@ const secondIssue: Issue = {
   <hr />
   Specimen is a quarterly magazine featuring interviews with university professors across disciplines, nominated by their peers for doing exceptional work in their field. Interview material covers a range of topics like the ecstasy and the agony of cutting-edge research, not-so-new academic work that hasn't made it into the popular awareness, the changing landscape of higher education, related current affairs, and answers to the question, "How did you get here?”<br />
   <p class="italic">Specimen Magazine is not affiliated with Stanford University.</p>`,
-  readingList: [],
+  readingList: readingLists[1],
 }
 
 const thirdIssue: Issue = {
-  title: 'Sex, Love, and Philosophy',
+  title: 'Sex, Love, & Philosophy',
   date: '2012',
   number: 3,
   contributors: [abby],
@@ -64,7 +64,7 @@ const fourthIssue: Issue = {
 }
 
 const fifthIssue: Issue = {
-  title: 'Art and Culture',
+  title: 'Art & Culture',
   date: '2013',
   number: 5,
   contributors: [abby, yuval],
@@ -74,11 +74,11 @@ const fifthIssue: Issue = {
   Specimen is a quarterly magazine featuring candid, in-depth interviews with professors for a popular audience. We distill hundreds of pages of interview material, representing hundreds of years of university experience, down to one compelling and understandable issue. Specimen interviews are not embedded in written narratives. They are first-person accounts, because word choice matters.<br /><br />
   Specimen was born out of a disappointment with journalism that oversimplifies complex research, the broken political system that it relies on, a celebrity culture that elevates fluff over substance, and gripping academic research that is packaged as humorless, visually dead, and jargon-laden. Specimen celebrates geeking out, dorking around, and the kind of celebrity that makes sense to us.<br />
   <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
-  readingList: [],
+  readingList: readingLists[4],
 }
 
 const sixthIssue: Issue = {
-  title: 'Freedom and Information',
+  title: 'Freedom & Information',
   date: '2013',
   number: 6,
   contributors: [abby, yuval],
