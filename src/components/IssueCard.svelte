@@ -31,7 +31,7 @@
       </section>
     {:else if index <= MAX_PROFESSOR_LENGTH}
       <section class="py-1 flex justify-between items-center">
-        <p class="text-left">{professor.name}</p>
+        <p class="text-left mr-1">{professor.name}</p>
         <Tag tag={professor.tags[0]} />
       </section>
 

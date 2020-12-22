@@ -9,38 +9,31 @@
 	<title>{status} | Specimen Magazine</title>
 </svelte:head>
 
-<h1>{status}</h1>
-
-{#if status === 404}
-	<!-- TODO -->
-	<p>:(</p>
-{/if}
-
-<p>{error.message}</p>
-
+<div class="w-full flex flex-col justify-center text-center">
+	{#if status === 404}
+		<p class="mx-auto my-0 font-serif italic">Ceci n'est pas une</p>
+		<h1 class="mx-auto my-0 font-bold">{status}</h1>
+		<p class="mx-auto my-0 font-serif italic">page</p>
+	{:else}
+		<p>{error.message}</p>
+	{/if}
+</div>
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
 {/if}
 
 <style>
-	h1,
-	p {
-		margin: 0 auto;
-	}
-
 	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
+		font-size: 5rem;
 	}
 
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
+	@media (min-width: 600px) {
 		h1 {
-			font-size: 4em;
+			font-size: 6rem;
+		}
+
+		p {
+			font-size: 1.125rem;
 		}
 	}
 </style>
