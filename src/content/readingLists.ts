@@ -332,6 +332,48 @@ const sixthList: ReadingListItem[] = [
   },
 ]
 
-const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList, sixthList]
+const seventhList: ReadingListItem[] = [
+  {
+    title: 'The Fable of the Bees',
+    subtitle: 'Or Private Vices, Publick Benefits',
+    author: 'Bernard Mandeville',
+    url: 'https://www.penguinrandomhouse.com/books/261065/the-fable-of-the-bees-by-bernard-mandeville/',
+  },
+  {
+    title: 'The Design of Everyday Things',
+    author: 'Donald A. Norman',
+    url: 'https://mitpress.mit.edu/books/design-everyday-things',
+  },
+  {
+    title: 'States of Injury',
+    subtitle: 'Power and Freedom in Late Modernity',
+    author: 'Wendy Brown',
+    url: 'https://press.princeton.edu/books/paperback/9780691029894/states-of-injury',
+  },
+  {
+    title: 'Republic',
+    author: 'Plato',
+    url: 'https://www.simonandschuster.com/books/Republic/Plato/Enriched-Classics/9781416599708#:~:text=Republic%20%7C%20Book%20by%20Plato%20%7C%20Official%20Publisher%20Page%20%7C%20Simon%20%26%20Schuster',
+  },
+  {
+    title: "What Money Can't Buy",
+    subtitle: 'The Moral Limits of Markets',
+    author: 'Michael J. Sandel',
+    url: 'https://scholar.harvard.edu/sandel/publications/what-money-cant-buy-moral-limits-markets',
+  },
+  {
+    title: 'Overheated',
+    subtitle: 'The Human Cost of Climate Change',
+    author: 'Andrew T. Guzman',
+    url: 'https://global.oup.com/academic/product/overheated-9780199933877?cc=us&lang=en&',
+  },
+  {
+    title: 'A Discourse on Inequality',
+    author: 'Jean-Jacques Rousseau',
+    url: 'https://www.penguinrandomhouse.com/books/322673/a-discourse-on-inequality-by-jean-jacques-rousseau/',
+  },
+]
+
+const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList, sixthList, seventhList]
 
 export default readingLists
