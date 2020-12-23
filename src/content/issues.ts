@@ -132,7 +132,7 @@ const eighthIssue: Issue = {
   <hr />
   Specimen is a quarterly magazine featuring candid, in-depth interviews with professors and other expert types for everyday people. Specimen interviews are not embedded in written narratives. What you read is transcript material from real conversations and monologues — straight from the horse's mouth — because word choice matters. Specimen celebrates dorking out, geeking around, and American heroes that make sense to us.<br />
   <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
-  readingList: [],
+  readingList: readingLists[7],
 }
 
 const ninthIssue: Issue = {

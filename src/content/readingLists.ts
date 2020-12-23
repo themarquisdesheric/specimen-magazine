@@ -374,6 +374,83 @@ const seventhList: ReadingListItem[] = [
   },
 ]
 
-const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList, sixthList, seventhList]
+const eighthList: ReadingListItem[] = [
+  {
+    title: 'Algebraic Statistics for Computational Biology',
+    author: 'Bernd Sturmfels and Lior Pachter',
+    url: 'https://academic.oup.com/bib/article/8/2/138/221528',
+  },
+  {
+    title: 'One Two Three... Infinity',
+    subtitle: 'Facts and Speculations of Science',
+    author: 'George Gamow',
+    url: 'https://store.doverpublications.com/0486256642.html',
+  },
+  {
+    title: 'Algorithms',
+    author: 'Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani',
+    url: 'https://www.mheducation.com/highered/product/algorithms-dasgupta-papadimitriou/M9780073523408.html',
+  },
+  {
+    title: 'How journals like Nature, Cell and Science are damaging science',
+    author: 'Randy Schekman',
+    url: 'https://www.theguardian.com/commentisfree/2013/dec/09/how-journals-nature-science-cell-damage-science',
+  },
+  {
+    title: 'Seeker, Doer, Giver, Ponderer',
+    subtitle: "A Billionaire Mathematician's Life of Ferocious Curiosity",
+    author: 'William J. Broad',
+    url: 'https://www.nytimes.com/2014/07/08/science/a-billionaire-mathematicians-life-of-ferocious-curiosity.html',
+  },
+  {
+    title: 'AdWords and Generalized On-line Matching',
+    author: 'Aranyak Mehta, Amin Saberi, Umesh Vazirani, Vijay Vazirani',
+    url: 'https://dl.acm.org/doi/abs/10.1109/SFCS.2005.12',
+  },
+  {
+    title: 'QED',
+    subtitle: 'The Strange Theory of Light and Matter',
+    author: 'Richard P. Feynman',
+    url: 'https://press.princeton.edu/books/paperback/9780691164090/qed',
+  },
+  {
+    title: 'The Master and Margarita',
+    author: 'Mikhail Bulgakov',
+    url: 'https://www.penguinrandomhouse.com/books/531360/the-master-and-margarita-by-mikhail-bulgakov-a-newly-revised-translation-by-richard-pevear-and-larissa-volokhonsky-introduction-by-richard-pevear-foreword-by-boris-fishman/9780143108276/readers-guide/',
+  },
+  {
+    title: "Science Faculty's Subtle Gender Biases Favor Male Students",
+    author: 'Moss-Racusin, Dovidio, Brescoll, Graham, and Handelsman',
+    url: 'https://www.pnas.org/content/109/41/16474',
+  },
+  {
+    title: 'Study Fails to Confirm Existence of Arsenic-Based Life',
+    author: 'Erika Check Hayden',
+    url: 'https://www.scientificamerican.com/article/study-fails-to-confirm-existence/',
+  },
+  {
+    title: 'Molecular Biology of the Cell',
+    author: 'Alberts, Bray, Lewis, Raff, Roberts, and Watson',
+    url: 'ncbi.nlm.nih.gov/books/NBK20684/',
+  },
+  {
+    title: 'Understanding Physics',
+    author: 'Isaac Asimov',
+    url: 'https://encantobooks.com/product/understanding-physics-asimov-isaac/',
+  },
+  {
+    title: 'A Beautiful Mind',
+    author: 'Sylvia Nasar',
+    url: 'https://www.simonandschuster.com/books/A-Beautiful-Mind/Sylvia-Nasar/9781451628425',
+  },
+  {
+    title: 'The Cyberiad',
+    subtitle: 'Fables for the Cybernectic Age',
+    author: 'Stanislaw Lem',
+    url: 'https://www.penguin.com.au/books/the-cyberiad-9780241467992',
+  },
+]
+
+const readingLists: ReadingListItem[][] = [firstList, secondList, thirdList, fourthList, fifthList, sixthList, seventhList, eighthList]
 
 export default readingLists
