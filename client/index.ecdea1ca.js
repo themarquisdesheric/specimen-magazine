@@ -1,0 +1,1 @@
+import{S as t,i as e,s,q as a,d as n,n as i}from"./client.748f8161.js";function c(t){return{c(){this.h()},l(t){a('[data-svelte="svelte-3ljbu8"]',document.head).forEach(n),this.h()},h(){document.title="Specimen Magazine"},m:i,p:i,i:i,o:i,d:i}}export default class extends t{constructor(t){super(),e(this,t,null,c,s,{})}}
