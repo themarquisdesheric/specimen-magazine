@@ -7,7 +7,7 @@
 		"build:css": "NODE_ENV=production postcss src/assets/global.pcss -o static/global.css",
 		"build:export": "sapper export --legacy",
 		"build:sapper": "sapper build --legacy",
-		"deploy": "yarn run export --legacy && gh-pages -d __sapper__/export",
+		"deploy": "yarn run export && gh-pages -d __sapper__/export",
 		"dev": "run-p watch:*",
     "export": "run-s build:css build:export",
 		"format": "prettier '**/*.{ts,js,json,css,svelte}' --plugin-search-dir=. --write",
