@@ -11,7 +11,8 @@
 <script lang="ts">
   export let issue: Issue
   
-  const { title, number, date, intro, readingList, professors } = issue
+  const { title, number, date, intro, professors } = issue
+  const readingList = issue?.readingList
 </script>
 
 <svelte:head>
@@ -39,21 +40,23 @@
     </ul>
   </div>
 
-  <h2 class="pb-2">Reading List</h2>
-  <p>Texts discussed in this issue</p>
-  <div class="flex flex-wrap justify-between">
-    {#each readingList as book}
-      <section class="mb-4 sm:mb-6">
-        <a href={book.url} target="_blank" rel="noopener noreferrer">
-          <p class="font-sans">{book.title}</p>
-        </a>
-        {#if book.subtitle}
-          <p class="text-sm italic">{book.subtitle}</p>
-        {/if}
-        <p class="text-sm">{book.author}</p>
-      </section>
-    {/each}
-  </div>
+  {#if readingList}
+    <h2 class="pb-2">Reading List</h2>
+    <p>Texts discussed in this issue</p>
+    <div class="flex flex-wrap justify-between">
+      {#each readingList as book}
+        <section class="mb-4 sm:mb-6">
+          <a href={book.url} target="_blank" rel="noopener noreferrer">
+            <p class="font-sans">{book.title}</p>
+          </a>
+          {#if book.subtitle}
+            <p class="text-sm italic">{book.subtitle}</p>
+          {/if}
+          <p class="text-sm">{book.author}</p>
+        </section>
+      {/each}
+    </div>
+  {/if}
 </div>
 
 <style>

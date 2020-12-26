@@ -27,7 +27,7 @@ export type Issue = {
   contributors: Contributor[],
   professors: Professor[],
   intro: string,
-  readingList: ReadingListItem[],
+  readingList?: ReadingListItem[],
 }
 
 export type ReadingListItem = {
