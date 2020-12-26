@@ -18,12 +18,8 @@
   <h1 class="text-lg pb-2">Tags</h1>
   
   <div class="flex flex-wrap">
-    {#each uniqueTags as tag, index}
-      <Tag
-        {tag}
-        lastOrOnlyTag={uniqueTags.length - 1 === index}
-        className="mb-2"
-      />
+    {#each uniqueTags as tag}
+      <Tag {tag} className="mb-2" />
     {/each}
   </div>
 </div>

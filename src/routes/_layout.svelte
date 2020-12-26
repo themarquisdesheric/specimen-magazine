@@ -30,7 +30,7 @@
 		width: calc(100% - 4rem);
 		margin-top: 57px;
 		/* 100vh - header - footer */
-		min-height: calc(100vh - 56px - 110px);
+		min-height: calc(100vh - 56px - 121px);
 		background-color: white;
 		box-sizing: border-box;
 	}

@@ -42,12 +42,8 @@
 		</div>
 	</header>
 	<div class="flex flex-wrap justify-center my-5">
-		{#each tags as tag, index}
-			<Tag
-				tag={tag}
-				lastOrOnlyTag={tags.length - 1 === index}
-				className="mb-2"
-			/>
+		{#each tags as tag}
+			<Tag {tag} className="mb-2" />
 		{/each}
 	</div>
 	<div class="article-content">
