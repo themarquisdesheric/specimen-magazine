@@ -16,7 +16,7 @@ type Interview  = {
   title: string,
   interviewers: Contributor[],
   date: string,
-  html: string,
+  html?: string,
   quote: string,
 }
 

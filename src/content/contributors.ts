@@ -8,6 +8,7 @@ export const abby: Contributor = {
 export const yuval: Contributor = {
   name: 'Yuval Allweil',
   title: 'Director',
+  url: 'https://www.whoisyuval.com',
 }
 
 export const peter: Contributor = {
@@ -44,3 +45,7 @@ export const sarah: Contributor = {
   name: 'Sarah Jean',
   title: 'Contributor',
 }
+
+const contributors: Contributor[] = [abby, yuval, peter, zainab, kevin, erica, katie, nadia, sarah]
+
+export default contributors

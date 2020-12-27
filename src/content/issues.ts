@@ -1,7 +1,7 @@
 import type { Issue } from '../types'
-import { abby, yuval } from '../content/contributors'
-import { professorsByIssue } from '../content/professors'
-import readingLists from '../content/readingLists'
+import { abby, yuval } from './contributors'
+import { professorsByIssue } from './professors'
+import readingLists from './readingLists'
 
 const firstIssue: Issue = {
   title: 'Berkeley University',

@@ -14,7 +14,6 @@ const firstIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2011',
-      html: '',
       quote: `"In some sense, everything interesting about the future is uncertain. You can predict the times of sunrise and sunset in 20 years. But those are boring things. What's going to happen to you and me personally, the state of the world in 20 or 30 years... all the interesting parts of that are uncertain."`,
     }
   },
@@ -26,7 +25,6 @@ const firstIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `“Here you try your best, at least you think, to say what's really going on. And AIDS would be… not like cancer, where I say maybe we have the truth but it's not going to be a picnic either. But with AIDS, it could be a stroke of a pen and AIDS would be gone."`,
     }
   },
@@ -38,7 +36,6 @@ const firstIssueProfessors: Professor[] = [
       title: 'Professor Emeritus of International Economics',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: '“I think that to a very substantial degree, the economics profession was trapped in the arrogance of the age itself, in the last 35 years.”',
     }
   },
@@ -50,7 +47,6 @@ const firstIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: '"It’s an amazing story how a few people in the seventies, visionary engineers who designed the basic protocols of the internet, how they created this wonderful artifact. I wish everybody could see how incredibly simple, how common-sense the basic principles of the internet are – its basic code. How ingeniously democratic, in a simple, common-sense way. Did the clever people who came up with those simple principles in the sixties and the seventies, did they realize how subversive those principles, those codes, were? Did they know that they were really spreading the germs of a revolution? Did they know, or did it just happen?"',
     }
   },
@@ -62,7 +58,6 @@ const firstIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: '',
     }
   }
@@ -79,7 +74,6 @@ const secondIssueProfessors: Professor[] = [
       title: 'Science to the People',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"I'm now the Deputy Director of the whole LSST project, and I am the lead scientist for the camera, which will be the largest digital camera ever build for astronomy when we finish constructing it."`,
     }
   },
@@ -91,7 +85,6 @@ const secondIssueProfessors: Professor[] = [
       title: 'Getting Tough in Touch Feely',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"If you think that you're the one that has to provide all the best answers or that you hold all the best answers, you'll never build a high performing team. Everybody will always just wait for you."`,
     }
   },
@@ -103,7 +96,6 @@ const secondIssueProfessors: Professor[] = [
       title: "The Best Healthcare System You've Never Heard Of",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"I think people would like this because they would know that whenever they see a doctor, they'd be making a small contribution to the database of knowledge about medicine"`,
     }
   },
@@ -115,7 +107,6 @@ const secondIssueProfessors: Professor[] = [
       title: "Play Time",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"I built these one of a kind instruments. You feel gratified that you're the world's greatest player, and that's a nice feeling for about 3 seconds because then you instantly recognize that you're also the world's worst player on this instrument. What would an intermediate and advanced level look like?"`,
     }
   },
@@ -127,7 +118,6 @@ const secondIssueProfessors: Professor[] = [
       title: "Watching the Ecological Toilet Swirl",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"In other words, they will trust a jet airplane designed by scientists, they'll trust a heart transplant designed by biologists, but they won't listen to climatologists or biologists about what we're doing to the planet!"`,
     }
   },
@@ -139,7 +129,6 @@ const secondIssueProfessors: Professor[] = [
       title: "One Man Experiment",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"I go to talks sometimes and hear people talk about my genome and what they found in it. The marvelous thing about the technology we developed is that it made it easy to sequence the genome."`,
     }
   },
@@ -151,7 +140,6 @@ const secondIssueProfessors: Professor[] = [
       title: "Kids Are Poor Because Their Parents Are Poor",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"These are very complicated environments within which to work. I get it. That's understandable. But that's not acceptable, because kids are dying in these places — in fact, they're concentrated in these places."`,
     }
   },
@@ -163,7 +151,6 @@ const secondIssueProfessors: Professor[] = [
       title: "",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"Often people say, 'if only we had more detailed data about what was really going on, we could get to the bottom of this.' Sometimes it doesn't work out that way."`,
     }
   },
@@ -175,7 +162,6 @@ const secondIssueProfessors: Professor[] = [
       title: "",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"Algorithms are what we do. I wake up in the morning thinking about algorithms and go to bed thinking about algorithms"`,
     }
   },
@@ -187,7 +173,6 @@ const secondIssueProfessors: Professor[] = [
 //       title: "",
 //       interviewers: [jason],
 //       date: '2012',
-//       html: '',
 //       quote: "",
 //     }
 //   },
@@ -204,7 +189,6 @@ const thirdIssueProfessors: Professor[] = [
       title: 'Legal Advice to Live By',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"So you can make fun of the people who say, 'marriage is just the way it's always been,' or 'I looked it up in the dictionary.' That is sort of silly, but if you are just coming up with the definition of marriage yourself, there needs to be a thoughtfulness at a moral and policy level."`,
     }
   },
@@ -216,7 +200,6 @@ const thirdIssueProfessors: Professor[] = [
       title: "Great Precision is the Beauty",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"Hmmm... beauty. Well, some of these plays are filled with people being horribly cruel to one another. What I'd say is that there is a great precision of language. This great precision is the beauty of it."`,
     }
   },
@@ -228,7 +211,6 @@ const thirdIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"I think science communication is one of those things. It's a cultural tragedy right now. We suck at it, and as scientists, we are in this little bubble of hubris and facts. I think that hasn't helped us."`,
     }
   },
@@ -240,7 +222,6 @@ const thirdIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"They want us to assess writing in quantifiable terms, cleanly separating form from content, mechanics from style, and assigning points to each 'rubric'. You are Kafka. Do you pass the assessment?"`,
     }
   },
@@ -252,7 +233,6 @@ const thirdIssueProfessors: Professor[] = [
       title: "Nature and Nurture",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"You can see that adopted individuals will show greater similarity to their birth parents than to their adopted parents."`,
     }
   },
@@ -264,7 +244,6 @@ const thirdIssueProfessors: Professor[] = [
       title: "Detours in Philosophy",
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"Tension is good. That's what we are supposed to do — take ideas, check them out with each other, revise, jettison some, give up some, strengthen others. That is what we are supposed to do, but I felt too vulnerable in that community."`,
     }
   },
@@ -281,7 +260,6 @@ const fourthIssueProfessors: Professor[] = [
       title: 'The Health-Education Connection',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"They were arguing that, in some sense, education can be seen as a health instrument, but that was very controversial. I decided to go after that question, whether there is any causal evidence."`,
     }
   },
@@ -293,7 +271,6 @@ const fourthIssueProfessors: Professor[] = [
       title: 'Real Time History',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"I can't seem to escape the Israel-Palestine conflict. Every time you think things can't get any worse, they do, and I dive in again."`,
     }
   },
@@ -305,7 +282,6 @@ const fourthIssueProfessors: Professor[] = [
       title: '"This Thing Called the Internet"',
       interviewers: [yuval],
       date: '2012',
-      html: '',
       quote: `"We were measuring the traffic statistics, and email suddenly took over the traffic of the network. I said, 'Wow. This isn't about machines. This is about people communicating!'"`,
     }
   },
@@ -317,7 +293,6 @@ const fourthIssueProfessors: Professor[] = [
       title: 'Leveraging the Social Brain',
       interviewers: [abby, yuval],
       date: '2012',
-      html: '',
       quote: `"Early on, when I was going into neuroscience, people would often say, 'So now we know that gum chewing exists in the gum chewing center of the brain, and whatever other silly things you can just localize to some part of the brain. Who cares? So what? I am usually on the lookout for answers to that 'So what?'"`,
     }
   },
@@ -329,7 +304,6 @@ const fourthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby, yuval],
       date: '2012',
-      html: '',
       quote: `"You can't wait for the super pathologists to come and save you, because there are not that many. You have to let them be as they may, poorly trained, and rely on smart algorithms that will make up for the lack of perfection."`,
     },
   },
@@ -341,7 +315,6 @@ const fourthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby, yuval],
       date: '2012',
-      html: '',
       quote: `"Some people have fear of mathematics or going too deep into mathematics. They say, 'Oh, this is too abstract. A judge or jury will never listen to us!' So what?`,
     }
   },
@@ -353,7 +326,6 @@ const fourthIssueProfessors: Professor[] = [
       title: 'Intellectual Property: Beyond Fairness',
       interviewers: [abby],
       date: '2012',
-      html: '',
       quote: `"Tweakers are the ones who take little steps forward on an idea and refine, improve it. And pioneers have the big ideas. The point is that most innovation is of the tweaking type, and to engage in that, you often need to engage in some form of copying."`,
     }
   }
@@ -370,7 +342,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [peter],
       date: '2013',
-      html: '',
       quote: `"They said, 'Well, there's musical evolution. Western music is evolutionarily advanced, and Chinese music got evolutionarily stuck about a thousand years ago. Hence, we are a thousand years behind, hence we must jettison our entire musical culture, and modernize.' And to me, it's actually a very disturbing story to tell."`,
     }
   },
@@ -382,7 +353,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [zainab],
       date: '2013',
-      html: '',
       quote: `"I like Michelangelo, but he has been idolized for many centuries, so he doesn't need me to idolize him anymore. So I don't need to find any treasures in the museum. In fact, by the time things are in a museum, I sort of lost interest. It's a part of me in a deep sort of way."`,
     }
   },
@@ -394,7 +364,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [yuval],
       date: '2013',
-      html: '',
       quote: `"They might meet someone who is 45 years old and has never used a mouse before. They've never had that opportunity. Our students don't often believe anyone like that exists, because it's so alien to their world. Then they sit down with someone who is maybe going through recovery for drug addiction or something like that. For whatever reason, they've been out of society for a long time, and they're just coming back in now and trying to figure out this whole Internet thing. And that really drives the point home."`,
     }
   },
@@ -406,7 +375,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [zainab],
       date: '2013',
-      html: '',
       quote: `"Even with people who are not allowed to be touched by others (the 'untouchable' or 'Dalit' caste in India) - and certainly there is no greater disrespect — how do you teach even these groups not to be only interested in themselves?<br /><br />
       I think that is where good cultural studies should go.`,
     }
@@ -419,7 +387,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [kevin],
       date: '2013',
-      html: '',
       quote: `"A lot of people think we work like a tape recorder. It's not true. You don't just have a memory, a fine representation somewhere. That's just what it feels like to a lot of people, but we are actively thinking ahead. We are active predictors. There's a lot of work out there about how much of memory is like imagining and how much isn't."`,
     }
   },
@@ -431,7 +398,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [erica],
       date: '2013',
-      html: '',
       quote: `"To me, being an outsider, it's easy enough to say, 'Just change it.' Get on the board of whatever, do this, do that, because it's your culture, it's your climate. You can change it. And I realize that it must be harder for students who are in it to actually feel like they have that kind of power. There's always that mythology that culture is created by other people who have been here longer or who seem to be more popular or those who are part of these privileged groups, of which there are several."`,
     }
   },
@@ -443,7 +409,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [katie],
       date: '2013',
-      html: '',
       quote: `"To make a long story short, we collected the largest sample of girls with ADHD in the world and we've been following them up over time."`,
     }
   },
@@ -455,7 +420,6 @@ const fifthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [erica],
       date: '2013',
-      html: '',
       quote: `"The role of technology in our lives is one we should be much more critical about, and people don't want to be."`,
     }
   },
@@ -472,7 +436,6 @@ const sixthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2013',
-      html: '',
       quote: `"Essentially, the thing is that people have been taught what is a disease and what is not, and they don't like to think of the idea that you and I have got a disease, right? But you and I have got aging."`,
     }
   },
@@ -484,7 +447,6 @@ const sixthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [kevin],
       date: '2013',
-      html: '',
       quote: `"If we could do the same with energy, create an energy supply that's relatively inexpensive, then we have this water issue whipped."`,
     }
   },
@@ -496,7 +458,6 @@ const sixthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2013',
-      html: '',
       quote: `"There has got to be some reason for, let's say, the never-ending claim that family life is disintegrating, which of course goes back to time immemorial, or the eons-long arguments about the country and city. They resonate for a reason, so it's not enough to just debunk them. If there is a misunderstanding behind those perceptions, where do they come from?"`,
     }
   },
@@ -508,7 +469,6 @@ const sixthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2013',
-      html: '',
       quote: `"So I have had this experience in conferences, where somebody from geology will come up to me and say, 'We are uniquely spatial among the scientists. That's why I want to talk to you.' And someone from chemistry will come and say the same thing, and someone in physics will do the same thing. And I am laughing inside. You're all spatial!"`,
     }
   },
@@ -520,7 +480,6 @@ const sixthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [nadia],
       date: '2013',
-      html: '',
       quote: `"They key, I think, is to acknowledge that we are part of the physical causal fabric of the world, but to also recognize that we are the part capable of acting with malicious intent.
       That's the hook of praise and blame."`,
     }
@@ -538,7 +497,6 @@ const seventhIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby, yuval],
       date: '2013',
-      html: '',
       quote: `"Officers are making these judgments under high uncertainty, and we know from decades of social psychology that under high uncertainty you see a lot of biases influence people's decisions, and that causes errors. Stereotype-based judgment is a kind of error."`,
     }
   },
@@ -550,7 +508,6 @@ const seventhIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2013',
-      html: '',
       quote: `"For me, neoliberalism is most importantly a way of thinking about who we are and what we do as humans, and that way of thinking is so relentlessly economistic. It submits everything to markets at every turn."`,
     }
   },
@@ -562,7 +519,6 @@ const seventhIssueProfessors: Professor[] = [
       title: '',
       interviewers: [yuval],
       date: '2013',
-      html: '',
       quote: `"So I started asking myself the central question of what creates habit-forming technology? What differentiates products that started out as toys, as cute little gimmicks, and then, within a few years time, become companies that are worth hundreds of millions of dollars, that touch hundreds of millions of lives? What are the patterns? So that's what I started studying, and I dove into it, asking and answering my own questions, and publishing what I was learning."`,
     }
   },
@@ -574,7 +530,6 @@ const seventhIssueProfessors: Professor[] = [
       title: '',
       interviewers: [kevin],
       date: '2013',
-      html: '',
       quote: `"I think the planet is going to be fine at some new equilibrium.<br />
       The question is, how are we going to do? How much suffering will we endure?<br />
       Will we suffer enough that emissions will reduce as a result or will we get it under control ourselves?"`,
@@ -588,7 +543,6 @@ const seventhIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2013',
-      html: '',
       quote: `"Basically, strategic foresight has a watch on the entire globe, and you are looking at all the socio-economic developments throughout countries, looking for hot spots in the future, economic or social breakdowns, looking at options for how to deal with those kinds of futures."`,
     }
   },
@@ -605,7 +559,6 @@ const eighthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"I sort of waited. When will they find out that I'm not so good? After a couple of years, I realized they never found out. They didn't find out, and maybe the other people aren't so amazing either. So they still haven't found out yet, and I'm still here."`,
     }
   },
@@ -617,7 +570,6 @@ const eighthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"My feeling is that it's not enough to complain or to use the Nobel Prize as a soap box to complain. It's more important to actually do something about it, so that's why I am spending most of my time creating an effective alternative venue that is not tainted in the way that the so-called luxury journals are tainted."`,
     }
   },
@@ -629,7 +581,6 @@ const eighthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"In a sense, mathematics can be regarded as a natural science, because it is a reflection of nature in our minds..."`,
     }
   },
@@ -641,7 +592,6 @@ const eighthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"I think that astronomy and evolution are the two key components of understanding our origins. There is the origin of the universe, the planet, the sun. And then there are the origins of our species. They make a coherent story together."`,
     }
   },
@@ -653,7 +603,6 @@ const eighthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"Figure out how you learn. Figure that out. If it isn't by listening to somebody, don't bother to go to class. Do it your way."`,
     }
   },
@@ -665,7 +614,6 @@ const eighthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"As classical beings, we are weak compared to the quantum devices. But you can get them into a wrist lock, and from then on, you can lead them on this dance. These minions, 2<sup>500</sup> of them, are dancing to your tune. It's a bit out there, right?"`,
     }
   },
@@ -682,7 +630,6 @@ const ninthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"We figured out how to get a bunch of parcels around the city. I wouldn't say it's ideal, but we farm 14 vacant lots around the city. Previously vacant. They aren't vacant now."`,
     }
   },
@@ -694,7 +641,6 @@ const ninthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"You have to be an agronomist to put the crop in and keep it growing. You have to be a livestock specialist to keep your animals healthy. You have to be a grain marketer to understand what's going on with that. The only thing we can't do is be with a witch doctor to get it to rain."`,
     }
   },
@@ -706,7 +652,6 @@ const ninthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"We think we feed the world, but how are other people in the world already feeding each other?"`,
     }
   },
@@ -718,7 +663,6 @@ const ninthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [sarah],
       date: '2014',
-      html: '',
       quote: `"So I built the fucking thing from the ground up."`,
     }
   },
@@ -730,7 +674,6 @@ const ninthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"I taught farm management for 23 years. I would go out to farms and help the farmers with their balance sheets, cash flows, tax planning, record keeping, enterprise analysis, to learn about cost per bushel, profit per acre, the cost per pound of milk produced, and the return per pound of milk, or per acre, or whole farm."`,
     }
   },
@@ -742,7 +685,6 @@ const ninthIssueProfessors: Professor[] = [
       title: '',
       interviewers: [abby],
       date: '2014',
-      html: '',
       quote: `"It's much more of a mindset shift than some fun little trend that is going to go away: 'twenty somethings are urban farming.' It's not going to go away."`,
     }
   },

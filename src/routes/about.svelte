@@ -1,19 +1,41 @@
+<script context="module" lang="ts">
+	import { contributors } from '../content'
+</script>
+
 <svelte:head>
 	<title>About | Specimen Magazine</title>
 </svelte:head>
 
 <div class="w-full">
-	<h1 class="text-lg">About this site</h1>
+	<h1>About Specimen Magazine</h1>
 	<div class="prose">
-		<div>
-			<p class="text-sm">
-				This is the 'about' page. There's not much here.
-			</p>
+		<div class="text-sm">
+			<p>This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now. This is where the 'about Specimen' content will be. There's not much here now.</p>
 		</div>
+		<h2>Contributors</h2>
+		<ul>
+			{#each contributors as { name, url }}
+				{#if url}
+					<li>
+						<a href={url} target="_blank" rel="noopener noreferrer">{name}</a>	
+					</li>
+				{:else}
+					<li>{name}</li>
+				{/if}
+			{/each}
+		</ul>
+		<h2>Thanks</h2>
 	</div>
+
 </div>
 
 <style>
+	h1,
+	h2 {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+		font-weight: 400;
+	}
 	p {
 		margin-top: .5rem;
 	}
