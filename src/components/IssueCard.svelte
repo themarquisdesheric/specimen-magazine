@@ -7,27 +7,25 @@
   const {
     number,
     title,
-    date,
     professors,
   } = issue
   const MAX_PROFESSOR_LENGTH = 5
-  const colors = ['rgb(23, 19, 100)', 'rgb(236, 175, 148)', 'rgb(251, 112, 125)', 'rgb(193, 14, 27)', 'rgb(206, 203, 244)', 'rgb(48, 121, 80)', 'rgb(240, 113, 21)', 'rgb(225, 172, 87)', 'rgb(34, 85, 77)']
-  let headerWidth
-</script>
 
-<a href="/issues/{number}" rel="prefetch" class="issue-card w-full border rounded text-sm p-4 mb-4">
+  let headerWidth = 222
+</script>
+<a href="/issues/{number}" rel="prefetch" class="issue-card w-full border rounded text-sm p-4 mb-4 shadow-md">
   <header
     bind:clientWidth={headerWidth}
-    style="--headerWidth: {headerWidth}px; background-color: {colors[number - 1]}"
+    style="--headerWidth: {headerWidth}px;"
     class="relative mb-4 text-white"
   >
-    <h2 class="absolute flex justify-between font-bold text-xl">{title}</h2>
-    <span class="absolute text-xl font-extralight">{date}</span>
+    <img src="/issues/{number}.jpg" alt="{title} issue" />
+    <h2 class="absolute font-bold text-xl">{title}</h2>
   </header>
   {#each professors as professor, index}
     {#if index === MAX_PROFESSOR_LENGTH && professors.length - 1 > MAX_PROFESSOR_LENGTH}
       <section class="py-1 flex justify-between items-center">  
-        <p class="font-light">+{professors.length - MAX_PROFESSOR_LENGTH} more</p>
+        <p class="font-light">+ {professors.length - MAX_PROFESSOR_LENGTH} more</p>
       </section>
     {:else if index <= MAX_PROFESSOR_LENGTH}
       <section class="py-1 flex justify-between items-center">
@@ -43,37 +41,23 @@
 </a>
 
 <style>
-  header {
-    height: var(--headerWidth);
-  }
-
-  h2,
-  header span {
+  h2 {
     /* fluid font magic https://css-tricks.com/snippets/css/fluid-typography/ */
     font-size: calc(1.25rem + 6 * ((100vw - 320px) / 90));
-  }
-
-  h2 {
     bottom: .5em;
     left: .5em;
   }
 
-  header span {
-    top: .5em;
-    right: .5em;
+  img {
+    object-fit: cover;
+    height: var(--headerWidth);
+    width: 100%;
   }
+
   @media (min-width: 600px) {
-    h2,
-    header span {
-      font-size: 1.25rem;
-    }
-
     h2 {
+      font-size: 1.25rem;
       left: .75em;
-    }
-
-    header span {
-      right: .75em;
     }
 
     .issue-card {

@@ -152,6 +152,4 @@ const ninthIssue: Issue = {
   <p class="italic">Specimen Magazine is not affiliated with the featured institutions.</p>`,
 }
 
-export const colors = ['rgb(23, 19, 100)', 'rgb(236, 175, 148)', 'rgb(251, 112, 125)', 'rgb(193, 14, 27)', 'rgb(206, 203, 244)', 'rgb(48, 121, 80)', 'rgb(240, 113, 21)', 'rgb(225, 172, 87)', 'rgb(34, 85, 77)']
-
 export default [firstIssue, secondIssue, thirdIssue, fourthIssue, fifthIssue, sixthIssue, seventhIssue, eighthIssue, ninthIssue]
