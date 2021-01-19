@@ -20,7 +20,12 @@
     class="relative mb-4 text-white"
   >
     <img src="/issues/{number}.jpg" alt="{title} issue" />
-    <h2 class="absolute font-bold text-xl">{title}</h2>
+    <h2
+      class="absolute font-bold text-xl pl-3 pr-1"
+      class:no-background={number === 3 || number === 6}
+    >
+      {title}
+    </h2>
   </header>
   {#each professors as professor, index}
     {#if index === MAX_PROFESSOR_LENGTH && professors.length - 1 > MAX_PROFESSOR_LENGTH}
@@ -45,7 +50,11 @@
     /* fluid font magic https://css-tricks.com/snippets/css/fluid-typography/ */
     font-size: calc(1.25rem + 6 * ((100vw - 320px) / 90));
     bottom: .5em;
-    left: .5em;
+    background: rgba(0, 0, 0, .6);
+  }
+
+  h2.no-background {
+    background: none;
   }
 
   img {
@@ -54,10 +63,21 @@
     width: 100%;
   }
 
+  @media (min-width: 400px) {
+    h2 {
+      line-height: 2.25rem;
+    }
+  }
+
+  @media (min-width: 500px) {
+    h2 {
+      line-height: 2.75rem;
+    }
+  }
   @media (min-width: 600px) {
     h2 {
       font-size: 1.25rem;
-      left: .75em;
+      line-height: 1.75rem;
     }
 
     .issue-card {
