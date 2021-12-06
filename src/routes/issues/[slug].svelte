@@ -28,16 +28,18 @@
 
   <p>{@html intro}</p>
 
-  <h2>Interviews</h2>
-  <div>
-    <ul>
-      {#each professors as professor}
-        <li class="flex justify-between">
-          <a rel="prefetch" href="/interviews/{professor.slug}">{professor.name}</a>
-          <Tag tag={professor.tags[0]} />
-        </li>
-      {/each}
-    </ul>
+  <div class="interviews mt-12 p-6 bg-gradient-to-r from-gray-900 to-black rounded-3xl">
+    <h2>Interviews</h2>
+    <div>
+      <ul>
+        {#each professors as professor}
+          <li class="flex justify-between">
+            <a rel="prefetch" href="/interviews/{professor.slug}">{professor.name}</a>
+            <Tag tag={professor.tags[0]} />
+          </li>
+        {/each}
+      </ul>
+    </div>
   </div>
 
   {#if readingList}
@@ -65,6 +67,16 @@
   }
 
   h2 {
+    margin-bottom: 0;
+  }
+
+  .interviews h2,
+  .interviews li a:not(.tag) {
+    margin-top: 0;
+    color: #fff;
+  }
+
+  .interviews ul {
     margin-bottom: 0;
   }
 
