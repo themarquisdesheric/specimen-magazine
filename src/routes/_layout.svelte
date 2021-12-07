@@ -45,4 +45,9 @@
 		width: 2rem;
     padding: .6rem;
 	}
+
+	:global(.prose *::selection) {
+		background-color: rgba(17, 24, 39, 0.95);
+		color: #fff;
+	}
 </style>

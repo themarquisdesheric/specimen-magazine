@@ -6,8 +6,8 @@
   professors.forEach(professor => {
     tags = tags.concat(professor.tags)
   })
-
-  const uniqueTags = [...new Set(tags)]
+  // using localeCompare for case-insensitive sorting
+  const uniqueTags = [...new Set(tags)].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }))
 </script>
 
 <svelte:head>

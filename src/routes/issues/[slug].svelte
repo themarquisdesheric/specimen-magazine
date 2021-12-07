@@ -28,7 +28,7 @@
 
   <p>{@html intro}</p>
 
-  <div class="interviews mt-12 p-6 bg-gradient-to-r from-gray-900 to-black rounded-3xl">
+  <div class="interviews mt-12 p-6 bg-gradient-to-r from-gray-900 to-black rounded-2xl">
     <h2>Interviews</h2>
     <div>
       <ul>
@@ -44,7 +44,7 @@
 
   {#if readingList}
     <h2 class="pb-2">Reading List</h2>
-    <p>Texts discussed in this issue</p>
+    <p class="text-sm text-gray-700">Texts discussed in this issue</p>
     <div class="flex flex-wrap justify-between">
       {#each readingList as book}
         <section class="mb-4 sm:mb-6">
