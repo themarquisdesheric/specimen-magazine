@@ -1,12 +1,11 @@
 <script lang="ts">
 	import Nav from '../components/Nav.svelte'
-	import instagram from '../../static/instagram.svg'
 
 	export let segment: string
 </script>
 
 <Nav {segment} />
-<main class="max-width relative flex mx-auto my-0 py-8">
+<main class="max-width relative flex mx-auto my-0 py-8 dark:bg-gray-900">
 	<slot />
 </main>
 <footer class="text-center py-2 font-light">
@@ -48,6 +47,17 @@
 
 	:global(.prose *::selection) {
 		background-color: rgba(17, 24, 39, 0.95);
-		color: #fff;
 	}
+
+	:global(.prose *::selection),
+	:global(.dark .prose h1),
+  :global(.dark .prose h2),
+  :global(.dark .prose p),
+	:global(.dark .prose a),
+  :global(.dark .prose a:not(.tag)),
+	:global(.dark h1),
+  :global(.dark h2),
+  :global(.dark p) {
+    color: #fff;
+  }
 </style>

@@ -74,6 +74,10 @@
 		font-weight: 400;
 		color: #000;
 	}
+	
+	:global(.dark .article-content p) {
+		color: #fff;
+	}
 
 	.prose :global(.interviewer) {
 		display: inline-block;
@@ -89,5 +93,9 @@
 		font-weight: 600;
 		letter-spacing: .5px;
 		text-align: center;
+	}
+
+	:global(.dark .prose .highlight) {
+		border-color: #fff;
 	}
 </style>

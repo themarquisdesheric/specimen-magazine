@@ -11,7 +11,7 @@
 	$: maxHeight = isMobileMenuOpen ? '175px' : '0px'
 </script>
 
-<nav class="fixed top-0 left-0 w-full z-10 bg-white">
+<nav class="fixed top-0 left-0 w-full z-10 bg-white dark:bg-gray-900 dark:text-white">
 	<!-- mobile menu -->
 	{#if isMobileMenuOpen}
 		<div class="click-catcher" on:click={toggleMobileMenu} />

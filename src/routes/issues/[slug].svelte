@@ -19,7 +19,7 @@
 	<title>Issue №{number} | Specimen Magazine</title>
 </svelte:head>
 
-<div class="prose w-full">
+<div class="prose w-full dark:text-white">
   <h1 class="pb-2">{title}</h1>
   <div class="flex justify-between text-lg font-light">
     <span>Issue №{number}</span>
