@@ -21,7 +21,7 @@
 			</a>
 		</span>
 	</div>
-	<small class="block my-2">Specimen Magazine © 2011 - 2015</small>
+	<small class="block my-2 dark:text-white">Specimen Magazine © 2011 - 2015</small>
 </footer>
 
 <style>
@@ -49,11 +49,15 @@
 		background-color: rgba(17, 24, 39, 0.95);
 	}
 
+	:global(.dark .prose *::selection) {
+		background-color: #fff;
+		color: rgb(17, 24, 39);
+	}
+
 	:global(.prose *::selection),
 	:global(.dark .prose h1),
   :global(.dark .prose h2),
   :global(.dark .prose p),
-	:global(.dark .prose a),
   :global(.dark .prose a:not(.tag)),
 	:global(.dark h1),
   :global(.dark h2),
