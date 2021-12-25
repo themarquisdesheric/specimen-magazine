@@ -1,17 +1,34 @@
 <script lang="ts">
+	import { onMount } from 'svelte'
 	import NavLink from './NavLink.svelte'
 
 	export let segment: string
 	const linkNames: string[] = ['issues', 'interviews', 'about']
 	let isMobileMenuOpen = false
-	let darkMode = true
+	let darkMode
+
+	onMount(() => {
+		darkMode = (localStorage.theme === 'dark' || (!('theme' in localStorage) && window?.matchMedia('(prefers-color-scheme: dark)')?.matches))
+	})
 
 	const toggleMobileMenu = () => (isMobileMenuOpen = !isMobileMenuOpen)
+
+	const toggleDarkMode = (isDarkMode) => {
+		if (isDarkMode) {
+			document?.documentElement?.classList?.remove('dark')
+			localStorage.theme = 'light'
+			darkMode = false
+		} else {
+			document?.documentElement?.classList?.add('dark')
+			localStorage.theme = 'dark'
+			darkMode = true
+		}
+	}
 
 	$: maxHeight = isMobileMenuOpen ? '175px' : '0px'
 </script>
 
-<nav class="fixed top-0 left-0 w-full z-10 bg-white dark:bg-gray-900 dark:text-white">
+<nav class="fixed top-0 left-0 w-full z-10 bg-white dark:bg-gray-900 dark:text-white transition duration-300">
 	<!-- mobile menu -->
 	{#if isMobileMenuOpen}
 		<div class="click-catcher" on:click={toggleMobileMenu} />
@@ -53,11 +70,18 @@
 		</button>
 
 		<!-- regular menu -->
-		<ul class="regular-menu flex font-extralight m-0 p-0">
-			{#each linkNames as linkName}
-				<NavLink {segment} {linkName} />
-			{/each}
-		</ul>
+		<div class="regular-menu items-center">
+			{#if darkMode !== undefined}
+				<button class="mr-4 px-3" on:click={() => toggleDarkMode(darkMode)}>
+					{darkMode ? '🌞' : '🌛'}
+				</button>
+			{/if}
+			<ul class="flex font-extralight m-0 p-0">
+				{#each linkNames as linkName}
+					<NavLink {segment} {linkName} />
+				{/each}
+			</ul>
+		</div>
 	</div>
 </nav>
 

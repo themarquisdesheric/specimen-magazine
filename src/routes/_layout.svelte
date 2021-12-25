@@ -5,7 +5,7 @@
 </script>
 
 <Nav {segment} />
-<main class="max-width relative flex mx-auto my-0 py-8 dark:bg-gray-900">
+<main class="max-width relative flex mx-auto my-0 py-8 dark:bg-gray-900 transition duration-300">
 	<slot />
 </main>
 <footer class="text-center py-2 font-light">
