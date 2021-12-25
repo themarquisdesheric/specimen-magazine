@@ -19,7 +19,7 @@
 	<title>Issue №{number} | Specimen Magazine</title>
 </svelte:head>
 
-<div class="prose w-full">
+<div class="prose w-full dark:text-white">
   <h1 class="pb-2">{title}</h1>
   <div class="flex justify-between text-lg font-light">
     <span>Issue №{number}</span>
@@ -28,7 +28,7 @@
 
   <p>{@html intro}</p>
 
-  <div class="interviews mt-12 p-6 bg-gradient-to-r from-gray-900 to-black rounded-2xl">
+  <div class="interviews mt-12 p-6 bg-gradient-to-r from-gray-900 to-gray-800 dark:from-black dark:to-black rounded-2xl">
     <h2>Interviews</h2>
     <div>
       <ul>

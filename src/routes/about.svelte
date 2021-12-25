@@ -24,7 +24,8 @@
 				{/if}
 			{/each}
 		</ul>
-		<h2>Thanks</h2>
+		<h2>Contact</h2>
+		<span>specimenmagazine</span><span>@</span><span>gmail.com</span>
 	</div>
 
 </div>
@@ -38,5 +39,10 @@
 	}
 	p {
 		margin-top: .5rem;
+	}
+
+	:global(.dark) li,
+	:global(.dark) span {
+		color: #fff;
 	}
 </style>
