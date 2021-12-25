@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte'
 	import NavLink from './NavLink.svelte'
+	import DarkModeToggle from './DarkModeToggle.svelte'
 
 	export let segment: string
 	const linkNames: string[] = ['issues', 'interviews', 'about']
@@ -46,36 +47,37 @@
 	<div class="max-width flex justify-between mx-auto">
 		<div><a href="." class="logo font-extrabold pl-0">Specimen</a></div>
 
-		<button class="hamburger-menu flex items-center justify-center w-8 relative">
-			<!-- hamburger menu svg from https://uxwing.com/hamburger-menu-icon/ -->
-			<svg
-				version="1.1"
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="122.879px"
-				height="103.609px"
-				viewBox="0 0 122.879 103.609"
-				fill={darkMode ? '#fff' : '#000'}
-				class="w-5 h-5"
-				on:click={toggleMobileMenu}
-			>
-				<g>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M10.368,0h102.144c5.703,0,10.367,4.665,10.367,10.367v0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,20.735,0,16.07,0,10.368v0C0,4.665,4.666,0,10.368,0L10.368,0z M10.368,82.875 h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0c0,5.702-4.664,10.367-10.367,10.367H10.368C4.666,103.609,0,98.944,0,93.242l0,0 C0,87.54,4.666,82.875,10.368,82.875L10.368,82.875z M10.368,41.438h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,62.173,0,57.507,0,51.805l0,0C0,46.103,4.666,41.438,10.368,41.438 L10.368,41.438z"
-					/>
-				</g>
-			</svg>
-		</button>
+		<div class="flex">
+			<DarkModeToggle {toggleDarkMode} {darkMode} classes="mobile-menu-dark-mode" />
+
+			<button class="hamburger-menu flex items-center justify-center w-8 relative">
+				<!-- hamburger menu svg from https://uxwing.com/hamburger-menu-icon/ -->
+				<svg
+					version="1.1"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					width="122.879px"
+					height="103.609px"
+					viewBox="0 0 122.879 103.609"
+					fill={darkMode ? '#fff' : '#000'}
+					class="w-5 h-5"
+					on:click={toggleMobileMenu}
+				>
+					<g>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M10.368,0h102.144c5.703,0,10.367,4.665,10.367,10.367v0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,20.735,0,16.07,0,10.368v0C0,4.665,4.666,0,10.368,0L10.368,0z M10.368,82.875 h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0c0,5.702-4.664,10.367-10.367,10.367H10.368C4.666,103.609,0,98.944,0,93.242l0,0 C0,87.54,4.666,82.875,10.368,82.875L10.368,82.875z M10.368,41.438h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,62.173,0,57.507,0,51.805l0,0C0,46.103,4.666,41.438,10.368,41.438 L10.368,41.438z"
+						/>
+					</g>
+				</svg>
+			</button>
+		</div>
 
 		<!-- regular menu -->
 		<div class="regular-menu items-center">
-			{#if darkMode !== undefined}
-				<button class="mr-4 px-3" on:click={() => toggleDarkMode(darkMode)}>
-					{darkMode ? '🌞' : '🌛'}
-				</button>
-			{/if}
+			<DarkModeToggle {toggleDarkMode} {darkMode} />
+
 			<ul class="flex font-extralight m-0 p-0">
 				{#each linkNames as linkName}
 					<NavLink {segment} {linkName} />
@@ -161,7 +163,8 @@
 
 	@media (min-width: 400px) {
 		.hamburger-menu,
-		.mobile-menu {
+		.mobile-menu,
+		:global(.mobile-menu-dark-mode) {
 			display: none;
 		}
 
