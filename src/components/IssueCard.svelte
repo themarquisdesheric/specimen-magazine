@@ -13,7 +13,7 @@
 
   let headerWidth = 222
 </script>
-<a href="/issues/{number}" rel="prefetch" class="issue-card w-full border rounded text-sm p-4 mb-4 shadow-md">
+<a href="/issues/{number}" rel="prefetch" class="issue-card w-full border rounded text-sm p-4 mb-8 shadow-md">
   <header
     bind:clientWidth={headerWidth}
     style="--headerWidth: {headerWidth}px;"
@@ -30,12 +30,12 @@
   {#each professors as professor, index}
     {#if index === MAX_PROFESSOR_LENGTH && professors.length - 1 > MAX_PROFESSOR_LENGTH}
       <section class="py-1 flex justify-between items-center">  
-        <p class="font-light">+ {professors.length - MAX_PROFESSOR_LENGTH} more</p>
+        <p class="text-xs font-light">+ {professors.length - MAX_PROFESSOR_LENGTH} more</p>
       </section>
     {:else if index <= MAX_PROFESSOR_LENGTH}
       <section class="py-1 flex justify-between items-center">
         <p class="text-left mr-1">{professor.name}</p>
-        <Tag tag={professor.tags[0]} />
+        <p class="text-right text-xs font-light">{professor.tags[0]}</p>
       </section>
 
       {#if index !== professors.length - 1}

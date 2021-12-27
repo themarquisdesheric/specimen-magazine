@@ -2,6 +2,21 @@
 	import Nav from '../components/Nav.svelte'
 
 	export let segment: string
+
+	const links = [
+		{
+			href: 'https://twitter.com/specimen_mag?lang=en',
+			type: 'twitter',
+		},
+		{
+			href: 'https://www.instagram.com/specimenmagazine/',
+			type: 'instagram',
+		},
+		{
+			href: 'mailto:specimenmagazine@gmail.com',
+			type: 'email',
+		},
+	]
 </script>
 
 <Nav {segment} />
@@ -10,16 +25,21 @@
 </main>
 <footer class="text-center py-2 font-light">
 	<div class="text-center mt-8">
-		<span class="mr-4">
-			<a href="https://twitter.com/specimen_mag?lang=en" target="_blank" rel="noopener noreferrer">
-				<img src="twitter.svg" alt="twitter" />
-			</a>
-		</span>
-		<span>
-			<a href="https://www.instagram.com/specimenmagazine/" target="_blank" rel="noopener noreferrer">
-				<img src="instagram.svg" alt="instagram" />
-			</a>
-		</span>
+		{#each links as { href, type }}
+			{#if type === 'email'}
+				<span>
+					<a {href}>
+						<img src="{type}.svg" alt={type} />
+					</a>
+				</span>
+			{:else}
+				<span class="mr-4">
+					<a {href} target="_blank" rel="noopener noreferrer">
+						<img src="{type}.svg" alt={type} />
+					</a>
+				</span>
+			{/if}
+		{/each}
 	</div>
 	<small class="block my-2 dark:text-white">Specimen Magazine © 2011 - 2015</small>
 </footer>
