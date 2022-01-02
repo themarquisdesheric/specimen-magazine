@@ -48,8 +48,7 @@
 		<div><a href="." class="logo font-extrabold pl-0">Specimen</a></div>
 
 		<div class="flex">
-			<DarkModeToggle {toggleDarkMode} {darkMode} classes="mobile-menu-dark-mode" />
-
+			<DarkModeToggle {toggleDarkMode} {darkMode} classes="mobile-menu-dark-mode mr-2" />
 			<button class="hamburger-menu flex items-center justify-center w-8 relative">
 				<!-- hamburger menu svg from https://uxwing.com/hamburger-menu-icon/ -->
 				<svg
@@ -76,8 +75,7 @@
 
 		<!-- regular menu -->
 		<div class="regular-menu items-center">
-			<DarkModeToggle {toggleDarkMode} {darkMode} />
-
+			<DarkModeToggle {toggleDarkMode} {darkMode} classes="mr-4" />
 			<ul class="flex font-extralight m-0 p-0">
 				{#each linkNames as linkName}
 					<NavLink {segment} {linkName} />
@@ -149,6 +147,7 @@
 	.regular-menu :global([aria-current]) {
 		position: relative;
 		display: inline-block;
+		color: cornflowerblue;
 	}
 
 	.regular-menu :global([aria-current]::after) {
@@ -156,7 +155,7 @@
 		content: '';
 		width: calc(100% - 0.7em);
 		height: 2px;
-		background-color: rgb(0, 0, 0);
+		background-color: cornflowerblue;
 		display: block;
 		bottom: -1px;
 	}

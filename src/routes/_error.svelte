@@ -11,9 +11,11 @@
 
 <div class="w-full flex flex-col justify-center text-center">
 	{#if status === 404}
-		<p class="mx-auto my-0 font-serif italic">Ceci n'est pas une</p>
-		<h1 class="mx-auto my-0 font-bold">{status}</h1>
-		<p class="mx-auto my-0 font-serif italic">page</p>
+		<div class="mx-auto flex flex-col justify-center">
+			<p class="mx-auto my-0 font-serif italic">Ceci n'est pas une</p>
+			<h1 class="mx-auto my-0 font-bold">{status}</h1>
+			<p class="mx-auto my-0 font-serif italic">page</p>
+		</div>
 	{:else}
 		<p>{error.message}</p>
 	{/if}
@@ -25,6 +27,12 @@
 <style>
 	h1 {
 		font-size: 5rem;
+	}
+
+	div div {
+		width: 300px;
+    height: 300px;
+    border: 0.75rem solid #000;
 	}
 
 	@media (min-width: 600px) {

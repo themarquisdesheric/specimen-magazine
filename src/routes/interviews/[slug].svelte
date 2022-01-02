@@ -86,16 +86,26 @@
 
 	.prose :global(.highlight) {
 		margin: 4rem auto;
-		padding: 1.25rem;
+		padding: 1.5rem;
 		width: 75%;
-		border: 3px solid #000;
+		border: .75rem solid #000;
 		border-radius: 0;
+		font-size: 1rem;
 		font-weight: 600;
-		letter-spacing: .5px;
+		font-style: italic;
+		letter-spacing: .25px;
 		text-align: center;
+		text-transform: uppercase;
 	}
 
 	:global(.dark .prose .highlight) {
 		border-color: #fff;
+	}
+
+	@media (min-width: 600px) {
+		.prose :global(.highlight) {
+			padding: 2rem;
+			font-size: 1.25rem;
+		}
 	}
 </style>
